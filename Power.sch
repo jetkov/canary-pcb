@@ -91,8 +91,12 @@ U 1 1 60683C63
 P 3900 3400
 F 0 "L?" V 3985 3401 50  0000 C CNN
 F 1 "2.2u" V 3842 3401 50  0000 C CNN
-F 2 "" H 3900 3400 50  0001 C CNN
-F 3 "~" H 3900 3400 50  0001 C CNN
+F 2 "JetkovKiCADLib:MAMK2520T2R2M" H 3900 3400 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MAMK2520T2R2M%20%20&u=M" H 3900 3400 50  0001 C CNN
+F 4 "FIXED IND 2.2UH 1.9A 117 MOHM" H 3900 3400 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 3900 3400 50  0001 C CNN "Manufacturer"
+F 6 "MAMK2520T2R2M" H 3900 3400 50  0001 C CNN "Part Number"
+F 7 "-40°C +105°C" H 3900 3400 50  0001 C CNN "Temp Range"
 	1    3900 3400
 	0    -1   -1   0   
 $EndComp
@@ -353,29 +357,17 @@ U 1 1 60683D02
 P 6800 3500
 F 0 "L?" V 6900 3500 50  0000 C CNN
 F 1 "4.7u" V 6728 3497 50  0000 C CNN
-F 2 "" H 6800 3500 50  0001 C CNN
-F 3 "~" H 6800 3500 50  0001 C CNN
+F 2 "JetkovKiCADLib:LQH3NPZ4R7MMEL" H 6800 3500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9140.pdf" H 6800 3500 50  0001 C CNN
+F 4 "FIXED IND 4.7UH 1A 120 MOHM SMD" H 6800 3500 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 6800 3500 50  0001 C CNN "Manufacturer"
+F 6 "LQH3NPZ4R7MMEL" H 6800 3500 50  0001 C CNN "Part Number"
+F 7 "-40°C +105°C" H 6800 3500 50  0001 C CNN "Temp Range"
 	1    6800 3500
 	0    -1   -1   0   
 $EndComp
 Text Notes 6350 3200 0    79   ~ 0
 Boost Converter
-Connection ~ 6350 4200
-$Comp
-L JetkovKiCADLib:MIC2288YD5 U?
-U 1 1 60683D0E
-P 6800 4000
-F 0 "U?" H 6600 4350 50  0000 C CNN
-F 1 "MIC2288YD5" H 6772 3545 50  0000 C CNN
-F 2 "JetkovKiCADLib:MIC2288YD5" H 6550 3400 50  0001 L BNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580187" H 7100 3550 50  0001 L BNN
-F 4 "MIC2288YD5-TR" H 6850 3300 40  0001 C CNN "Part Number"
-F 5 "Microchip Technology" H 6850 3300 40  0001 C CNN "Manufacturer"
-F 6 "IC REG BOOST ADJ 1.2A TSOT23-5" H 6850 3300 40  0001 C CNN "Description"
-F 7 "-40°C +125°C" H 6850 3300 40  0001 C CNN "Temp Range"
-	1    6800 4000
-	1    0    0    -1  
-$EndComp
 Connection ~ 8050 3500
 $Comp
 L power:+5V #PWR?
@@ -1015,4 +1007,22 @@ Wire Wire Line
 	5700 2100 5650 2100
 Wire Wire Line
 	5200 1350 5700 1350
+Connection ~ 6350 4200
+$Comp
+L JetkovKiCADLib:MIC2288YD5 U?
+U 1 1 60683D0E
+P 6800 4000
+F 0 "U?" H 6600 4350 50  0000 C CNN
+F 1 "MIC2288YD5" H 6772 3545 50  0000 C CNN
+F 2 "JetkovKiCADLib:MIC2288YD5" H 6550 3400 50  0001 L BNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580187" H 7100 3550 50  0001 L BNN
+F 4 "MIC2288YD5-TR" H 6850 3300 40  0001 C CNN "Part Number"
+F 5 "Microchip Technology" H 6850 3300 40  0001 C CNN "Manufacturer"
+F 6 "IC REG BOOST ADJ 1.2A TSOT23-5" H 6850 3300 40  0001 C CNN "Description"
+F 7 "-40°C +125°C" H 6850 3300 40  0001 C CNN "Temp Range"
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 4800 2350 0    40   ~ 0
+PP / VBUS
 $EndSCHEMATC
