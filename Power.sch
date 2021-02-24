@@ -460,8 +460,12 @@ U 1 1 60683D47
 P 7450 3500
 F 0 "D?" H 7450 3375 50  0000 C CNN
 F 1 "D_Schottky" H 7450 3374 50  0001 C CNN
-F 2 "" H 7450 3500 50  0001 C CNN
-F 3 "~" H 7450 3500 50  0001 C CNN
+F 2 "JetkovKiCADLib:PMEG2010EA" H 7450 3500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG2010EA.pdf" H 7450 3500 50  0001 C CNN
+F 4 "DIODE SCHOTTKY 20V 1A SOD323" H 7450 3500 50  0001 C CNN "Description"
+F 5 "Nexperia USA Inc." H 7450 3500 50  0001 C CNN "Manufacturer"
+F 6 "PMEG2010EA,135" H 7450 3500 50  0001 C CNN "Part Number"
+F 7 "-65°C +125°C" H 7450 3500 50  0001 C CNN "Temp Range"
 	1    7450 3500
 	-1   0    0    1   
 $EndComp
