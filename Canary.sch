@@ -127,17 +127,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 3550 4500 3600
 $Comp
-L Device:Speaker_Crystal LS?
-U 1 1 605E7267
-P 3200 6700
-F 0 "LS?" H 3100 6800 50  0000 L CNN
-F 1 "Speaker_Crystal" H 3375 6605 50  0001 L CNN
-F 2 "" H 3165 6650 50  0001 C CNN
-F 3 "~" H 3165 6650 50  0001 C CNN
-	1    3200 6700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0134
 U 1 1 605F5E85
 P 1650 6200
@@ -1292,4 +1281,19 @@ Text Label 2700 6700 0    40   ~ 0
 PDRIVE_O
 Text Label 1650 6700 0    40   ~ 0
 PDRIVE
+$Comp
+L JetkovKiCADLib:PKMCS0909E4000-R1 LS?
+U 1 1 603826A5
+P 3200 6700
+F 0 "LS?" H 3100 6850 50  0000 L CNN
+F 1 "PKMCS0909E4000-R1" H 3100 6350 50  0000 L CNN
+F 2 "JetkovKiCADLib:PKMCS0909E4000-R1" H 3215 6350 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx" H 3165 6650 50  0001 C CNN
+F 4 "PKMCS0909E4000-R1" H 3150 6400 40  0001 C CNN "Part Number"
+F 5 "Murata Electronics" H 3150 6400 40  0001 C CNN "Manufacturer"
+F 6 "AUDIO PIEZO TRANSDUCER 12.5V SMD" H 3250 6400 40  0001 C CNN "Description"
+F 7 "-40°C +85°C" H 3150 6400 40  0001 C CNN "Temp Range"
+	1    3200 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
