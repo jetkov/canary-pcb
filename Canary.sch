@@ -833,32 +833,32 @@ Text Notes 13300 1150 0    79   ~ 0
 $Comp
 L Device:C C?
 U 1 1 60A91FEF
-P 7750 3700
-F 0 "C?" H 7865 3746 50  0000 L CNN
-F 1 "0.1u" H 7865 3655 50  0000 L CNN
-F 2 "" H 7788 3550 50  0001 C CNN
-F 3 "~" H 7750 3700 50  0001 C CNN
-	1    7750 3700
+P 7750 3750
+F 0 "C?" H 7865 3796 50  0000 L CNN
+F 1 "0.1u" H 7865 3705 50  0000 L CNN
+F 2 "" H 7788 3600 50  0001 C CNN
+F 3 "~" H 7750 3750 50  0001 C CNN
+	1    7750 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L JetkovKiCADLib:SHTC3 U?
 U 1 1 603451FE
-P 8200 3700
-F 0 "U?" H 8000 4050 50  0000 C CNN
-F 1 "SHTC3" H 8350 4050 50  0000 C CNN
-F 2 "JetkovKiCADLib:MCP7383xx-xxxx_OT" H 7700 3050 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHTC3_D1.pdf" H 8450 3600 50  0001 L BNN
-F 4 "SHTC3" H 8250 3200 40  0001 C CNN "Part Number"
-F 5 "Sensirion AG" H 8250 3200 40  0001 C CNN "Manufacturer"
-F 6 "SENSOR HUMI/TEMP I2C 2% SMD" H 8250 3200 40  0001 C CNN "Description"
-F 7 "-40°C +125°C" H 8250 3200 40  0001 C CNN "Temp Range"
-	1    8200 3700
+P 8200 3750
+F 0 "U?" H 8000 4100 50  0000 C CNN
+F 1 "SHTC3" H 8350 4100 50  0000 C CNN
+F 2 "JetkovKiCADLib:MCP7383xx-xxxx_OT" H 7700 3100 50  0001 L BNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHTC3_D1.pdf" H 8450 3650 50  0001 L BNN
+F 4 "SHTC3" H 8250 3250 40  0001 C CNN "Part Number"
+F 5 "Sensirion AG" H 8250 3250 40  0001 C CNN "Manufacturer"
+F 6 "SENSOR HUMI/TEMP I2C 2% SMD" H 8250 3250 40  0001 C CNN "Description"
+F 7 "-40°C +125°C" H 8250 3250 40  0001 C CNN "Temp Range"
+	1    8200 3750
 	1    0    0    -1  
 $EndComp
 Text Notes 7850 1450 0    79   ~ 0
 VOC Sensor
-Text Notes 7850 3100 0    79   ~ 0
+Text Notes 7850 3150 0    79   ~ 0
 Humidity + \nTemperature\nSensor
 Text Notes 7950 2500 0    40   ~ 0
 Address: 0x59\nFreq: 0 to 100kHz\n      0 to 400kHz
@@ -933,38 +933,38 @@ F 3 "~" H 7650 2150 50  0001 C CNN
 	1    7650 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 7950 4100 0    40   ~ 0
+Text Notes 7950 4150 0    40   ~ 0
 Address: 0x70\nFreq: 0 to 1MHz
 Wire Wire Line
-	8650 3800 8650 3850
+	8650 3850 8650 3900
 $Comp
 L power:GND #PWR?
 U 1 1 60AC8A96
-P 8650 3850
-F 0 "#PWR?" H 8650 3600 50  0001 C CNN
-F 1 "GND" H 8655 3677 50  0000 C CNN
-F 2 "" H 8650 3850 50  0001 C CNN
-F 3 "" H 8650 3850 50  0001 C CNN
-	1    8650 3850
+P 8650 3900
+F 0 "#PWR?" H 8650 3650 50  0001 C CNN
+F 1 "GND" H 8655 3727 50  0000 C CNN
+F 2 "" H 8650 3900 50  0001 C CNN
+F 3 "" H 8650 3900 50  0001 C CNN
+	1    8650 3900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 3500 7750 3550
-Connection ~ 7750 3500
+	7750 3550 7750 3600
+Connection ~ 7750 3550
 $Comp
 L power:GND #PWR?
 U 1 1 60A91FF5
-P 7750 3850
-F 0 "#PWR?" H 7750 3600 50  0001 C CNN
-F 1 "GND" H 7755 3677 50  0000 C CNN
-F 2 "" H 7750 3850 50  0001 C CNN
-F 3 "" H 7750 3850 50  0001 C CNN
-	1    7750 3850
+P 7750 3900
+F 0 "#PWR?" H 7750 3650 50  0001 C CNN
+F 1 "GND" H 7755 3727 50  0000 C CNN
+F 2 "" H 7750 3900 50  0001 C CNN
+F 3 "" H 7750 3900 50  0001 C CNN
+	1    7750 3900
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8650 3600 2    50   Input ~ 0
+Text GLabel 8650 3650 2    50   Input ~ 0
 I2C_SCL
-Text GLabel 8650 3500 2    50   BiDi ~ 0
+Text GLabel 8650 3550 2    50   BiDi ~ 0
 I2C_SDA
 Text GLabel 8650 1950 2    50   Input ~ 0
 I2C_SCL
@@ -1168,16 +1168,16 @@ F 3 "" H 12650 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 3450 7750 3500
+	7750 3500 7750 3550
 $Comp
 L power:VDD #PWR?
 U 1 1 60AB3D1B
-P 7750 3450
-F 0 "#PWR?" H 7750 3300 50  0001 C CNN
-F 1 "VDD" H 7765 3623 50  0000 C CNN
-F 2 "" H 7750 3450 50  0001 C CNN
-F 3 "" H 7750 3450 50  0001 C CNN
-	1    7750 3450
+P 7750 3500
+F 0 "#PWR?" H 7750 3350 50  0001 C CNN
+F 1 "VDD" H 7765 3673 50  0000 C CNN
+F 2 "" H 7750 3500 50  0001 C CNN
+F 3 "" H 7750 3500 50  0001 C CNN
+	1    7750 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1401,16 +1401,14 @@ Text GLabel 4300 2300 2    50   Output ~ 0
 5V_EN
 Text GLabel 4300 2000 2    50   Input ~ 0
 CHG_STAT
-Text Notes 7750 4200 0    40   ~ 0
-Shutdown Iq: 0.3uA typ, 0.6uA max
-Text Notes 7800 2600 0    40   ~ 0
-Shutdown Iq: 34uA typ, 105uA max
-Text Notes 13600 2400 0    40   ~ 0
-Shutdown Iq: 6uA max
-Text Notes 13550 5100 0    40   ~ 0
-Shutdown Iq: 0.6uA typ, 8uA max
-Text Notes 2950 5250 0    40   ~ 0
-Shutdown Iq: 1uA typ, 10uA max
+Text Notes 7800 2700 0    40   ~ 0
+Shutdown Iq: 34uA typ, 105uA max\nRun: 2.6mA typ, 3mA max
+Text Notes 13550 2400 0    40   ~ 0
+Shutdown Iq: 6uA max\nRun Iq: 130uA typ, 200uA max
+Text Notes 13550 5150 0    40   ~ 0
+Shutdown Iq: 0.6uA typ, 8uA max\nRun: 10uA typ, 18uA max
+Text Notes 2950 5300 0    40   ~ 0
+Shutdown Iq: 1uA typ, 10uA max\nRun: 5mA typ, 20mA max
 $Comp
 L power:+3V3 #PWR?
 U 1 1 609D2642
@@ -1635,4 +1633,12 @@ F 3 "" H 1900 1350 50  0001 C CNN
 	1    1900 1350
 	-1   0    0    -1  
 $EndComp
+Text Notes 7400 5900 0    40   ~ 0
+Shutdown Iq: ~5mA\nRun: 60mA typ, 100mA max
+Text Notes 13550 6900 0    40   ~ 0
+Run Iq: 0.6uA typ, 1uA max
+Text Notes 7750 4350 0    40   ~ 0
+Shutdown Iq: 0.3uA typ, 0.6uA max\nRun: 430uA typ, 900uA max
+Text Notes 2750 3800 0    40   ~ 0
+Shutdown Iq: 0.3uA typ, 1.2uA max\nRun: 3.3mA typ
 $EndSCHEMATC
