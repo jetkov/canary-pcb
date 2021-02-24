@@ -1,0 +1,929 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JetkovKiCADLib:S2B-PH-SM4-TB J?
+U 1 1 60683C3E
+P 7800 1800
+F 0 "J?" H 7800 2050 50  0000 L CNN
+F 1 "S2B-PH-SM4-TB" H 7600 1450 50  0000 L CNN
+F 2 "JetkovKiCADLib:JST_S2B-PH-SM4-TB" H 7750 1300 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7800 1800 50  0001 L BNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 7750 1300 50  0001 C CNN "Part Number"
+F 5 "JST Sales America Inc." H 7750 1300 50  0001 C CNN "Manufacturer"
+F 6 "CONN HEADER SMD R/A 2POS 2MM" H 7750 1300 50  0001 C CNN "Description"
+F 7 "-25°C +85°C" H 7850 1200 50  0001 C CNN "Temp Range"
+	1    7800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 60683C44
+P 7450 1650
+F 0 "#PWR?" H 7450 1500 50  0001 C CNN
+F 1 "+BATT" H 7465 1823 50  0000 C CNN
+F 2 "" H 7450 1650 50  0001 C CNN
+F 3 "" H 7450 1650 50  0001 C CNN
+	1    7450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683C4A
+P 7450 2050
+F 0 "#PWR?" H 7450 1800 50  0001 C CNN
+F 1 "GND" H 7455 1877 50  0000 C CNN
+F 2 "" H 7450 2050 50  0001 C CNN
+F 3 "" H 7450 2050 50  0001 C CNN
+	1    7450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2050 7450 2000
+Wire Wire Line
+	7450 2000 7500 2000
+Wire Wire Line
+	7500 1800 7450 1800
+Wire Wire Line
+	7450 1800 7450 2000
+Connection ~ 7450 2000
+Wire Wire Line
+	7450 1650 7450 1700
+Wire Wire Line
+	7450 1700 7500 1700
+$Comp
+L Device:R R?
+U 1 1 60683C57
+P 4900 4500
+F 0 "R?" H 4970 4546 50  0000 L CNN
+F 1 "86.6k" H 4970 4455 50  0000 L CNN
+F 2 "" V 4830 4500 50  0001 C CNN
+F 3 "~" H 4900 4500 50  0001 C CNN
+	1    4900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683C5D
+P 4900 4650
+F 0 "#PWR?" H 4900 4400 50  0001 C CNN
+F 1 "GND" H 4905 4477 50  0000 C CNN
+F 2 "" H 4900 4650 50  0001 C CNN
+F 3 "" H 4900 4650 50  0001 C CNN
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 60683C63
+P 4150 3400
+F 0 "L?" V 4235 3401 50  0000 C CNN
+F 1 "2.2u" V 4092 3401 50  0000 C CNN
+F 2 "" H 4150 3400 50  0001 C CNN
+F 3 "~" H 4150 3400 50  0001 C CNN
+	1    4150 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3400 3650 3400
+Wire Wire Line
+	4300 3400 4650 3400
+Wire Wire Line
+	4900 4250 4900 4300
+Connection ~ 4900 4300
+Wire Wire Line
+	4900 4300 4900 4350
+Wire Wire Line
+	4900 3950 4900 3900
+$Comp
+L power:GND #PWR?
+U 1 1 60683C6F
+P 4650 4450
+F 0 "#PWR?" H 4650 4200 50  0001 C CNN
+F 1 "GND" H 4655 4277 50  0000 C CNN
+F 2 "" H 4650 4450 50  0001 C CNN
+F 3 "" H 4650 4450 50  0001 C CNN
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4400 4650 4450
+$Comp
+L Device:C C?
+U 1 1 60683C76
+P 5300 4100
+F 0 "C?" H 5415 4146 50  0000 L CNN
+F 1 "10u" H 5415 4055 50  0000 L CNN
+F 2 "" H 5338 3950 50  0001 C CNN
+F 3 "~" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683C7C
+P 5300 4250
+F 0 "#PWR?" H 5300 4000 50  0001 C CNN
+F 1 "GND" H 5305 4077 50  0000 C CNN
+F 2 "" H 5300 4250 50  0001 C CNN
+F 3 "" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60683C82
+P 3150 4100
+F 0 "C?" H 3265 4146 50  0000 L CNN
+F 1 "10u" H 3265 4055 50  0000 L CNN
+F 2 "" H 3188 3950 50  0001 C CNN
+F 3 "~" H 3150 4100 50  0001 C CNN
+	1    3150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683C88
+P 3150 4250
+F 0 "#PWR?" H 3150 4000 50  0001 C CNN
+F 1 "GND" H 3155 4077 50  0000 C CNN
+F 2 "" H 3150 4250 50  0001 C CNN
+F 3 "" H 3150 4250 50  0001 C CNN
+	1    3150 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4000 3650 3900
+Text GLabel 3600 4400 0    50   Input ~ 0
+3V3_PS
+Wire Wire Line
+	5300 3950 5300 3900
+Connection ~ 5300 3900
+$Comp
+L JetkovKiCADLib:MCP73831T-2ATI_OT U?
+U 1 1 60683C96
+P 6000 1900
+F 0 "U?" H 6000 2370 50  0000 C CNN
+F 1 "MCP73831T-2ATI_OT" H 6000 2279 50  0000 C CNN
+F 2 "JetkovKiCADLib:MCP7383xx-xxxx_OT" H 6300 1800 50  0001 L BNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf" H 6250 1800 50  0001 L BNN
+F 4 "MCP73831T-2ATI/OT" H 6050 1400 40  0001 C CNN "Part Number"
+F 5 "Microchip Technology" H 6050 1400 40  0001 C CNN "Manufacturer"
+F 6 "IC BATT CNTL LI-ION 1CEL SOT23-5" H 6050 1400 40  0001 C CNN "Description"
+F 7 "-40°C +85°C" H 6050 1400 40  0001 C CNN "Temp Range"
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1800 6450 1800
+Connection ~ 6500 2100
+Wire Wire Line
+	6500 2150 6500 2100
+Wire Wire Line
+	6450 2100 6500 2100
+$Comp
+L power:GND #PWR?
+U 1 1 60683CA0
+P 6500 2150
+F 0 "#PWR?" H 6500 1900 50  0001 C CNN
+F 1 "GND" H 6505 1977 50  0000 C CNN
+F 2 "" H 6500 2150 50  0001 C CNN
+F 3 "" H 6500 2150 50  0001 C CNN
+	1    6500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60683CA6
+P 6500 1950
+F 0 "R?" H 6570 1996 50  0000 L CNN
+F 1 "10k" H 6570 1905 50  0000 L CNN
+F 2 "" V 6430 1950 50  0001 C CNN
+F 3 "~" H 6500 1950 50  0001 C CNN
+	1    6500 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 2100 0    50   Output ~ 0
+CHG_STAT
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60683CAD
+P 5300 3850
+F 0 "#PWR?" H 5300 3700 50  0001 C CNN
+F 1 "+3V3" H 5315 4023 50  0000 C CNN
+F 2 "" H 5300 3850 50  0001 C CNN
+F 3 "" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 3900
+$Comp
+L JetkovKiCADLib:RT6150AGQW U?
+U 1 1 60683CB8
+P 4150 4100
+F 0 "U?" H 3900 4650 50  0000 C CNN
+F 1 "RT6150AGQW" H 4150 3650 50  0000 C CNN
+F 2 "JetkovKiCADLib:RT6150AGQW" H 4400 3500 50  0001 L BNN
+F 3 "https://www.richtek.com/assets/product_file/RT6150A=RT6150B/DS6150AB-05.pdf" H 4400 3500 50  0001 L BNN
+F 4 "IC REG BCK BST ADJ 800MA 10WDFN" H 4150 3400 40  0001 C CNN "Description"
+F 5 "Richtek USA Inc." H 4150 3400 40  0001 C CNN "Manufacturer"
+F 6 "RT6150AGQW" H 4150 3400 40  0001 C CNN "Part Number"
+F 7 "-40°C +85°C" H 4150 3400 40  0001 C CNN "Temp Range"
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4000 3650 4300
+Connection ~ 3650 4000
+Wire Wire Line
+	3150 3900 3650 3900
+Wire Wire Line
+	3150 3950 3150 3900
+$Comp
+L power:+BATT #PWR?
+U 1 1 60683CC2
+P 3150 3850
+F 0 "#PWR?" H 3150 3700 50  0001 C CNN
+F 1 "+BATT" H 3165 4023 50  0000 C CNN
+F 2 "" H 3150 3850 50  0001 C CNN
+F 3 "" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3850 3150 3900
+Connection ~ 3150 3900
+$Comp
+L Device:C C?
+U 1 1 60683CCA
+P 6850 1900
+F 0 "C?" H 6965 1946 50  0000 L CNN
+F 1 "4.7u" H 6965 1855 50  0000 L CNN
+F 2 "" H 6888 1750 50  0001 C CNN
+F 3 "~" H 6850 1900 50  0001 C CNN
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683CD0
+P 6850 2050
+F 0 "#PWR?" H 6850 1800 50  0001 C CNN
+F 1 "GND" H 6855 1877 50  0000 C CNN
+F 2 "" H 6850 2050 50  0001 C CNN
+F 3 "" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1750 6850 1700
+Wire Wire Line
+	6850 1700 6450 1700
+$Comp
+L power:+BATT #PWR?
+U 1 1 60683CD8
+P 6850 1650
+F 0 "#PWR?" H 6850 1500 50  0001 C CNN
+F 1 "+BATT" H 6865 1823 50  0000 C CNN
+F 2 "" H 6850 1650 50  0001 C CNN
+F 3 "" H 6850 1650 50  0001 C CNN
+	1    6850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1650 6850 1700
+Connection ~ 6850 1700
+$Comp
+L Device:R R?
+U 1 1 60683CE0
+P 5200 2300
+F 0 "R?" H 5270 2346 50  0000 L CNN
+F 1 "330k" H 5270 2255 50  0000 L CNN
+F 2 "" V 5130 2300 50  0001 C CNN
+F 3 "~" H 5200 2300 50  0001 C CNN
+	1    5200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683CE6
+P 5200 2450
+F 0 "#PWR?" H 5200 2200 50  0001 C CNN
+F 1 "GND" H 5205 2277 50  0000 C CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2100 5200 2150
+Wire Wire Line
+	5550 1350 5550 1700
+Connection ~ 5200 2100
+Wire Wire Line
+	5200 2100 5250 2100
+Wire Wire Line
+	5100 2100 5200 2100
+Text Notes 5600 2600 0    40   ~ 0
+Rprog (k) = \n1000 (V) / Ireg (mA)\n\n10k -> 100mA\n2k  -> 500mA
+$Comp
+L Device:R R?
+U 1 1 60683CF2
+P 4900 4100
+F 0 "R?" H 4970 4146 50  0000 L CNN
+F 1 "487k" H 4970 4055 50  0000 L CNN
+F 2 "" V 4830 4100 50  0001 C CNN
+F 3 "~" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3900 5300 3900
+Connection ~ 4900 3900
+Wire Wire Line
+	4650 3900 4900 3900
+Wire Wire Line
+	4650 4300 4900 4300
+Wire Wire Line
+	3650 3400 3650 3700
+Wire Wire Line
+	4650 3400 4650 3700
+Text Notes 3500 3200 0    79   ~ 0
+Buck/Boost Converter
+Wire Wire Line
+	5300 3850 5300 3900
+Text Notes 6500 5100 0    40   ~ 0
+Vref = 1.24V\nR2 <= 5k\nR1/R2 = (Vout/Vref) - 1 = 3.0323\nR1 = 3.09k or 9.1k, R2 = 1.02k or 3k\n\n85% > D = 1-(Vin/Vout) =1-(3/5) = 0.4\nRecommended L @ 5V = 4.7uH\nVo < 6V -> Cout = 22uF = Cin\n
+$Comp
+L Device:L L?
+U 1 1 60683D02
+P 6700 3500
+F 0 "L?" V 6800 3500 50  0000 C CNN
+F 1 "4.7u" V 6628 3497 50  0000 C CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "~" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	0    -1   -1   0   
+$EndComp
+Text Notes 6250 3200 0    79   ~ 0
+Boost Converter
+Connection ~ 6250 4200
+$Comp
+L JetkovKiCADLib:MIC2288YD5 U?
+U 1 1 60683D0E
+P 6700 4000
+F 0 "U?" H 6500 4350 50  0000 C CNN
+F 1 "MIC2288YD5" H 6672 3545 50  0000 C CNN
+F 2 "JetkovKiCADLib:MIC2288YD5" H 6450 3400 50  0001 L BNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580187" H 7000 3550 50  0001 L BNN
+F 4 "MIC2288YD5-TR" H 6750 3300 40  0001 C CNN "Part Number"
+F 5 "Microchip Technology" H 6750 3300 40  0001 C CNN "Manufacturer"
+F 6 "IC REG BOOST ADJ 1.2A TSOT23-5" H 6750 3300 40  0001 C CNN "Description"
+F 7 "-40°C +125°C" H 6750 3300 40  0001 C CNN "Temp Range"
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 3500
+Wire Wire Line
+	7900 3450 7900 3500
+$Comp
+L power:+5V #PWR?
+U 1 1 60683D16
+P 7900 3450
+F 0 "#PWR?" H 7900 3300 50  0001 C CNN
+F 1 "+5V" H 7915 3623 50  0000 C CNN
+F 2 "" H 7900 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6000 3500
+Wire Wire Line
+	6000 3450 6000 3500
+$Comp
+L power:+BATT #PWR?
+U 1 1 60683D1E
+P 6000 3450
+F 0 "#PWR?" H 6000 3300 50  0001 C CNN
+F 1 "+BATT" H 6015 3623 50  0000 C CNN
+F 2 "" H 6000 3450 50  0001 C CNN
+F 3 "" H 6000 3450 50  0001 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683D24
+P 6250 4550
+F 0 "#PWR?" H 6250 4300 50  0001 C CNN
+F 1 "GND" H 6255 4377 50  0000 C CNN
+F 2 "" H 6250 4550 50  0001 C CNN
+F 3 "" H 6250 4550 50  0001 C CNN
+	1    6250 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4200 6250 4250
+Wire Wire Line
+	6150 4200 6250 4200
+$Comp
+L Device:R R?
+U 1 1 60683D2C
+P 6250 4400
+F 0 "R?" H 6320 4446 50  0000 L CNN
+F 1 "1M" H 6320 4355 50  0000 L CNN
+F 2 "" V 6180 4400 50  0001 C CNN
+F 3 "~" H 6250 4400 50  0001 C CNN
+	1    6250 4400
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7550 4300
+Wire Wire Line
+	7550 4350 7550 4300
+$Comp
+L power:GND #PWR?
+U 1 1 60683D34
+P 7550 4350
+F 0 "#PWR?" H 7550 4100 50  0001 C CNN
+F 1 "GND" H 7555 4177 50  0000 C CNN
+F 2 "" H 7550 4350 50  0001 C CNN
+F 3 "" H 7550 4350 50  0001 C CNN
+	1    7550 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3550 7900 3500
+Connection ~ 7550 3500
+Wire Wire Line
+	7550 3500 7900 3500
+Wire Wire Line
+	7550 3500 7500 3500
+Wire Wire Line
+	7550 3550 7550 3500
+Connection ~ 7550 3900
+Wire Wire Line
+	7550 3900 7550 3850
+Wire Wire Line
+	7550 3950 7550 3900
+Wire Wire Line
+	7550 4300 7550 4250
+Wire Wire Line
+	7150 4300 7550 4300
+Wire Wire Line
+	7150 3900 7550 3900
+Connection ~ 7150 3500
+Wire Wire Line
+	7200 3500 7150 3500
+$Comp
+L Device:D_Schottky D?
+U 1 1 60683D47
+P 7350 3500
+F 0 "D?" H 7350 3375 50  0000 C CNN
+F 1 "D_Schottky" H 7350 3374 50  0001 C CNN
+F 2 "" H 7350 3500 50  0001 C CNN
+F 3 "~" H 7350 3500 50  0001 C CNN
+	1    7350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683D4D
+P 7900 3850
+F 0 "#PWR?" H 7900 3600 50  0001 C CNN
+F 1 "GND" H 7905 3677 50  0000 C CNN
+F 2 "" H 7900 3850 50  0001 C CNN
+F 3 "" H 7900 3850 50  0001 C CNN
+	1    7900 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60683D53
+P 7900 3700
+F 0 "C?" H 8015 3746 50  0000 L CNN
+F 1 "22u" H 8015 3655 50  0000 L CNN
+F 2 "" H 7938 3550 50  0001 C CNN
+F 3 "~" H 7900 3700 50  0001 C CNN
+	1    7900 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 3500
+Wire Wire Line
+	6000 3500 6250 3500
+Wire Wire Line
+	6000 3550 6000 3500
+Text GLabel 6150 4200 0    50   Input ~ 0
+5V_EN
+$Comp
+L power:GND #PWR?
+U 1 1 60683D5D
+P 6000 3850
+F 0 "#PWR?" H 6000 3600 50  0001 C CNN
+F 1 "GND" H 6005 3677 50  0000 C CNN
+F 2 "" H 6000 3850 50  0001 C CNN
+F 3 "" H 6000 3850 50  0001 C CNN
+	1    6000 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60683D63
+P 6000 3700
+F 0 "C?" H 6115 3746 50  0000 L CNN
+F 1 "22u" H 6115 3655 50  0000 L CNN
+F 2 "" H 6038 3550 50  0001 C CNN
+F 3 "~" H 6000 3700 50  0001 C CNN
+	1    6000 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3500 7150 3800
+Wire Wire Line
+	6850 3500 7150 3500
+Wire Wire Line
+	6250 3500 6250 3800
+Wire Wire Line
+	6550 3500 6250 3500
+$Comp
+L Device:R R?
+U 1 1 60683D6D
+P 7550 3700
+F 0 "R?" H 7620 3746 50  0000 L CNN
+F 1 "9.1k" H 7620 3655 50  0000 L CNN
+F 2 "" V 7480 3700 50  0001 C CNN
+F 3 "~" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60683D73
+P 7550 4100
+F 0 "R?" H 7620 4146 50  0000 L CNN
+F 1 "3k" H 7620 4055 50  0000 L CNN
+F 2 "" V 7480 4100 50  0001 C CNN
+F 3 "~" H 7550 4100 50  0001 C CNN
+	1    7550 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 5750 1200 0    79   ~ 0
+Li-ion\nCharger
+Text Notes 7550 1200 0    79   ~ 0
+Li-ion\nBattery
+Text Notes 3100 1100 0    79   ~ 0
+USB C
+Wire Wire Line
+	3800 1500 3750 1500
+Wire Wire Line
+	3800 1450 3800 1500
+$Comp
+L power:VBUS #PWR?
+U 1 1 60683D7E
+P 3800 1450
+F 0 "#PWR?" H 3800 1300 50  0001 C CNN
+F 1 "VBUS" H 3815 1623 50  0000 C CNN
+F 2 "" H 3800 1450 50  0001 C CNN
+F 3 "" H 3800 1450 50  0001 C CNN
+	1    3800 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1700 4300 1850
+Wire Wire Line
+	3750 1700 4300 1700
+Wire Wire Line
+	4100 1800 3750 1800
+Wire Wire Line
+	4100 1850 4100 1800
+$Comp
+L power:GND #PWR?
+U 1 1 60683D88
+P 4300 2150
+F 0 "#PWR?" H 4300 1900 50  0001 C CNN
+F 1 "GND" H 4305 1977 50  0000 C CNN
+F 2 "" H 4300 2150 50  0001 C CNN
+F 3 "" H 4300 2150 50  0001 C CNN
+	1    4300 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683D8E
+P 4100 2150
+F 0 "#PWR?" H 4100 1900 50  0001 C CNN
+F 1 "GND" H 4105 1977 50  0000 C CNN
+F 2 "" H 4100 2150 50  0001 C CNN
+F 3 "" H 4100 2150 50  0001 C CNN
+	1    4100 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2200 3800 2000
+Connection ~ 3800 2200
+Wire Wire Line
+	3750 2200 3800 2200
+Wire Wire Line
+	3800 2000 3750 2000
+Wire Wire Line
+	3800 2250 3800 2200
+$Comp
+L power:GND #PWR?
+U 1 1 60683D99
+P 3800 2250
+F 0 "#PWR?" H 3800 2000 50  0001 C CNN
+F 1 "GND" H 3805 2077 50  0000 C CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60683D9F
+P 4100 2000
+F 0 "R?" H 4170 2046 50  0000 L CNN
+F 1 "5.1k" H 4170 1955 50  0000 L CNN
+F 2 "" V 4030 2000 50  0001 C CNN
+F 3 "~" H 4100 2000 50  0001 C CNN
+	1    4100 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60683DA5
+P 4300 2000
+F 0 "R?" H 4370 2046 50  0000 L CNN
+F 1 "5.1k" H 4370 1955 50  0000 L CNN
+F 2 "" V 4230 2000 50  0001 C CNN
+F 3 "~" H 4300 2000 50  0001 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L JetkovKiCADLib:USB4125-GF-A J?
+U 1 1 60683DAF
+P 3300 1800
+F 0 "J?" H 3047 2261 50  0000 L CNN
+F 1 "USB4125-GF-A" H 2986 1232 50  0000 L CNN
+F 2 "JetkovKiCADLib:USB4125-GF-A" H 3300 1800 50  0001 L BNN
+F 3 "https://gct.co/files/drawings/usb4125.pdf" H 3300 1800 50  0001 L BNN
+F 4 "USB4125-GF-A" H 3300 1800 50  0001 L BNN "Part Number"
+F 5 "GCT" H 3300 1800 50  0001 L BNN "Manufacturer"
+F 6 "USB C REC, GF, RA, 6P, SMT, TH S" H 3300 1800 50  0001 L BNN "Description"
+F 7 "" H 3300 1800 50  0001 L BNN "Temp Range"
+	1    3300 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60683DB5
+P 5400 2100
+F 0 "R?" V 5577 2102 50  0000 L CNN
+F 1 "180k" V 5500 2000 50  0000 L CNN
+F 2 "" V 5330 2100 50  0001 C CNN
+F 3 "~" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 1350 5550 1350
+$Comp
+L Device:C C?
+U 1 1 60683DBC
+P 5100 1550
+F 0 "C?" H 5215 1596 50  0000 L CNN
+F 1 "4.7u" H 5215 1505 50  0000 L CNN
+F 2 "" H 5138 1400 50  0001 C CNN
+F 3 "~" H 5100 1550 50  0001 C CNN
+	1    5100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1350 5100 1400
+Connection ~ 5100 1350
+Wire Wire Line
+	5100 1300 5100 1350
+$Comp
+L power:VBUS #PWR?
+U 1 1 60683DC5
+P 5100 1300
+F 0 "#PWR?" H 5100 1150 50  0001 C CNN
+F 1 "VBUS" H 5115 1473 50  0000 C CNN
+F 2 "" H 5100 1300 50  0001 C CNN
+F 3 "" H 5100 1300 50  0001 C CNN
+	1    5100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683DCB
+P 5100 1700
+F 0 "#PWR?" H 5100 1450 50  0001 C CNN
+F 1 "GND" H 5105 1527 50  0000 C CNN
+F 2 "" H 5100 1700 50  0001 C CNN
+F 3 "" H 5100 1700 50  0001 C CNN
+	1    5100 1700
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	2900 2750 8350 2750
+Wire Notes Line
+	8350 2750 8350 850 
+Wire Notes Line
+	8350 850  2900 850 
+Wire Notes Line
+	2900 850  2900 2750
+Text Notes 2900 800  0    79   Italic 0
+Battery
+Wire Notes Line
+	8350 6350 2900 6350
+Wire Notes Line
+	2900 6350 2900 3000
+Wire Notes Line
+	8350 3000 8350 6350
+Text Notes 5250 5100 0    79   ~ 0
+3.2V LDO
+$Comp
+L power:GND #PWR?
+U 1 1 60683DDA
+P 6200 5900
+F 0 "#PWR?" H 6200 5650 50  0001 C CNN
+F 1 "GND" H 6205 5727 50  0000 C CNN
+F 2 "" H 6200 5900 50  0001 C CNN
+F 3 "" H 6200 5900 50  0001 C CNN
+	1    6200 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60683DE0
+P 5950 6050
+F 0 "#PWR?" H 5950 5800 50  0001 C CNN
+F 1 "GND" H 5955 5877 50  0000 C CNN
+F 2 "" H 5950 6050 50  0001 C CNN
+F 3 "" H 5950 6050 50  0001 C CNN
+	1    5950 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5600 5950 5300
+$Comp
+L power:VDD #PWR?
+U 1 1 60683DEB
+P 6200 5550
+F 0 "#PWR?" H 6200 5400 50  0001 C CNN
+F 1 "VDD" H 6215 5723 50  0000 C CNN
+F 2 "" H 6200 5550 50  0001 C CNN
+F 3 "" H 6200 5550 50  0001 C CNN
+	1    6200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60683DF1
+P 6200 5750
+F 0 "C?" H 6315 5796 50  0000 L CNN
+F 1 "1u" H 6315 5705 50  0000 L CNN
+F 2 "" H 6238 5600 50  0001 C CNN
+F 3 "~" H 6200 5750 50  0001 C CNN
+	1    6200 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 5600
+Wire Wire Line
+	6200 5600 6200 5550
+Wire Wire Line
+	5950 5600 6200 5600
+Connection ~ 4650 5600
+Wire Wire Line
+	4650 5600 4650 5550
+$Comp
+L power:GND #PWR?
+U 1 1 60683E09
+P 4650 5900
+F 0 "#PWR?" H 4650 5650 50  0001 C CNN
+F 1 "GND" H 4655 5727 50  0000 C CNN
+F 2 "" H 4650 5900 50  0001 C CNN
+F 3 "" H 4650 5900 50  0001 C CNN
+	1    4650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60683E0F
+P 4650 5750
+F 0 "C?" H 4765 5796 50  0000 L CNN
+F 1 "1u" H 4765 5705 50  0000 L CNN
+F 2 "" H 4688 5600 50  0001 C CNN
+F 3 "~" H 4650 5750 50  0001 C CNN
+	1    4650 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60683E15
+P 4650 5550
+F 0 "#PWR?" H 4650 5400 50  0001 C CNN
+F 1 "+3V3" H 4665 5723 50  0000 C CNN
+F 2 "" H 4650 5550 50  0001 C CNN
+F 3 "" H 4650 5550 50  0001 C CNN
+	1    4650 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5300 5950 5300
+Wire Wire Line
+	5400 5300 5150 5300
+$Comp
+L Device:R R?
+U 1 1 60683E1E
+P 5550 5300
+F 0 "R?" V 5450 5350 50  0000 L CNN
+F 1 "0R" V 5450 5150 50  0000 L CNN
+F 2 "" V 5480 5300 50  0001 C CNN
+F 3 "~" H 5550 5300 50  0001 C CNN
+	1    5550 5300
+	0    1    1    0   
+$EndComp
+Text Notes 2900 2950 0    79   Italic 0
+Power Regulation
+Wire Notes Line
+	2900 3000 8350 3000
+$Comp
+L power:GND #PWR?
+U 1 1 6095BC79
+P 3650 4750
+F 0 "#PWR?" H 3650 4500 50  0001 C CNN
+F 1 "GND" H 3655 4577 50  0000 C CNN
+F 2 "" H 3650 4750 50  0001 C CNN
+F 3 "" H 3650 4750 50  0001 C CNN
+	1    3650 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6095BC7F
+P 3650 4600
+F 0 "R?" H 3720 4646 50  0000 L CNN
+F 1 "1M" H 3720 4555 50  0000 L CNN
+F 2 "" V 3580 4600 50  0001 C CNN
+F 3 "~" H 3650 4600 50  0001 C CNN
+	1    3650 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4450 3650 4400
+Wire Wire Line
+	3650 4400 3600 4400
+Connection ~ 3650 4400
+Text Notes 3000 5550 0    40   ~ 0
+PS:  Pull  low  for  power save mode\nand  pull  high  for  fixed  switching \nfrequency operation. 
+Text Notes 3000 5300 0    40   ~ 0
+R1 = 487k\nFb = 500mV\nR2 = R1 / (Vout/Fb - 1) = 86.964k\nCff = [(487k/R1) * 20] -20 (pF) = 0 pF\nL = 2.2uH @ 3.3Vo & 2.5-4.2Vin [1.5uH < L < 4.7uH]\nCin & Cout recommended -> 10μF/X7R/1206
+Text Notes 6500 5250 0    40   ~ 0
+Shutdown Iq: 0.1uA typ, 1uA max
+Text Notes 6250 2600 0    40   ~ 0
+Shutdown Iq: 0.1uA typ, 2uA max
+Connection ~ 5950 5600
+Wire Wire Line
+	5950 6000 5950 5900
+Wire Wire Line
+	5950 6050 5950 6000
+Connection ~ 5950 6000
+Wire Wire Line
+	5150 5300 5150 5600
+Wire Wire Line
+	4650 5600 5150 5600
+Connection ~ 5150 5600
+Text GLabel 5150 6000 0    50   Input ~ 0
+VDD_EN
+$Comp
+L JetkovKiCADLib:LP5907MFX-3.2 U?
+U 1 1 60683DFE
+P 5550 5800
+F 0 "U?" H 5400 6150 50  0000 C CNN
+F 1 "LP5907MFX-3.2" H 5550 5450 50  0000 C CNN
+F 2 "JetkovKiCADLib:LP5907MFX" H 5100 5200 50  0001 L BNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp5907" H 5650 5150 50  0001 L BNN
+F 4 "LP5907MFX-3.2/NOPB" H 5650 5150 40  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 5650 5150 40  0001 C CNN "Manufacturer"
+F 6 "IC REG LINEAR 3.2V 250MA SOT23-5" H 5650 5150 40  0001 C CNN "Description"
+F 7 "-40°C +125°C" H 5650 5150 40  0001 C CNN "Temp Range"
+	1    5550 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 4810 5881 0    40   ~ 0
+Internal 1M \npull-down \non EN
+$EndSCHEMATC
