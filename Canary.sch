@@ -1299,23 +1299,23 @@ $EndComp
 $Comp
 L JetkovKiCADLib:TL3301SPF160QG SW1
 U 1 1 603B5FDC
-P 12200 4550
-F 0 "SW1" H 12200 4835 50  0000 C CNN
-F 1 "TL3301SPF160QG" H 12200 4744 50  0000 C CNN
-F 2 "JetkovKiCADLib:TL3301SPF160QG" H 12100 4750 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/158/TL3301.pdf" H 12100 4750 50  0001 C CNN
-F 4 "TL3301SPF160QG" H 12200 4550 40  0001 C CNN "Part Number"
-F 5 "E-Switch" H 12200 4550 40  0001 C CNN "Manufacturer"
-F 6 "SWITCH TACTILE SPST-NO 0.05A 12V" H 12200 4550 40  0001 C CNN "Description"
-F 7 "-20°C +70°C" H 12200 4550 40  0001 C CNN "Temp Range"
-	1    12200 4550
+P 12150 4600
+F 0 "SW1" H 12150 4885 50  0000 C CNN
+F 1 "TL3301SPF160QJ" H 12150 4794 50  0000 C CNN
+F 2 "JetkovKiCADLib:TL3301EF160QJ" H 12050 4800 50  0001 C CNN
+F 3 "https://www.digikey.ca/htmldatasheets/production/2066007/0/0/1/TL3301SPF160QJ-Drawing.pdf" H 12050 4800 50  0001 C CNN
+F 4 "TL3301SPF160QJ" H 12150 4600 40  0001 C CNN "Part Number"
+F 5 "E-Switch" H 12150 4600 40  0001 C CNN "Manufacturer"
+F 6 "SWITCH TACTILE SPST-NO 0.05A 12V" H 12150 4600 40  0001 C CNN "Description"
+F 7 "-20°C +70°C" H 12150 4600 40  0001 C CNN "Temp Range"
+	1    12150 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L JetkovKiCADLib:SM-UART-04L S?
+L JetkovKiCADLib:SM-UART-04L S1
 U 1 1 603C9AA9
 P 12000 5150
-F 0 "S?" H 12078 5188 40  0000 L CNN
+F 0 "S1" H 12078 5188 40  0000 L CNN
 F 1 "SM-UART-04L" H 12078 5112 40  0000 L CNN
 F 2 "JetkovKiCADLib:SM-UART-04L" H 12000 4950 40  0001 C CNN
 F 3 "https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27" H 12000 5150 40  0001 C CNN
@@ -1324,6 +1324,17 @@ F 5 "Amphenol Advanced Sensors" H 12000 4950 40  0001 C CNN "Manufacturer"
 F 6 "PM2.5 IR LASER DUST SENSOR" H 12000 4950 40  0001 C CNN "Description"
 F 7 "-10°C +50°C" H 12000 4950 40  0001 C CNN "Temp Range"
 	1    12000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60409DCA
+P 13350 2600
+F 0 "H1" H 13450 2646 50  0000 L CNN
+F 1 "MountingHole" H 13450 2555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 13350 2600 50  0001 C CNN
+F 3 "~" H 13350 2600 50  0001 C CNN
+	1    13350 2600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
