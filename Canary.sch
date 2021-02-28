@@ -1472,4 +1472,10 @@ Text GLabel 4500 1850 2    35   Output ~ 0
 ~PM_RST~
 Text GLabel 7350 3300 0    35   Input ~ 0
 ~PM_RST~
+Text Label 2300 6450 0    40   ~ 0
+PG
+Text Label 2300 6950 0    40   ~ 0
+NG
+Text Label 1200 4800 0    40   ~ 0
+RBTN
 $EndSCHEMATC

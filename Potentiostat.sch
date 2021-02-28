@@ -611,4 +611,10 @@ Text Label 6750 3350 0    40   ~ 0
 SPEC_CE
 Text Label 6300 3750 0    40   ~ 0
 CE
+Text Notes 1100 4800 0    40   ~ 0
+Short 'S' connections to 'F' connections as close as possible to the load
+Text Label 6250 4100 0    40   ~ 0
+FILT_C2
+Text Label 6250 4500 0    40   ~ 0
+FILT_C1
 $EndSCHEMATC
