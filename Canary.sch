@@ -391,7 +391,7 @@ $EndComp
 Wire Wire Line
 	1900 6700 1650 6700
 Text Notes 12100 900  0    118  ~ 0
-TODO\n- Jellybean BOM\n- Review\n- Button
+TODO\n- Jellybean BOM\n- Review
 Text GLabel 4500 6300 0    50   Input ~ 0
 LED_GREEN
 $Comp
@@ -617,73 +617,73 @@ $EndComp
 $Comp
 L JetkovKiCADLib:MX25V1006FM1I U1
 U 1 1 60355852
-P 4400 4850
-F 0 "U1" H 4650 5300 50  0000 C CNN
-F 1 "DNP" H 4400 5300 50  0000 C CNB
-F 2 "JetkovKiCADLib:MX25V1006FM1I" H 4650 4250 50  0001 L BNN
-F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7430/MX25V1006F,%202.5V,%201Mb,%20v1.0.pdf" H 4650 4250 50  0001 L BNN
-F 4 "MX25V1006FM1I" H 4400 4150 40  0001 C CNN "Part Number"
-F 5 "Macronix" H 4400 4150 40  0001 C CNN "Manufacturer"
-F 6 "IC FLASH 1MBIT SPI/DUAL I/O 8SOP" H 4400 4150 40  0001 C CNN "Description"
-F 7 "-40°C +85°C" H 4400 4150 40  0001 C CNN "Temp Range"
-	1    4400 4850
+P 5050 4850
+F 0 "U1" H 5300 5300 50  0000 C CNN
+F 1 "DNP" H 5050 5300 50  0000 C CNB
+F 2 "JetkovKiCADLib:MX25V1006FM1I" H 5300 4250 50  0001 L BNN
+F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7430/MX25V1006F,%202.5V,%201Mb,%20v1.0.pdf" H 5300 4250 50  0001 L BNN
+F 4 "MX25V1006FM1I" H 5050 4150 40  0001 C CNN "Part Number"
+F 5 "Macronix" H 5050 4150 40  0001 C CNN "Manufacturer"
+F 6 "IC FLASH 1MBIT SPI/DUAL I/O 8SOP" H 5050 4150 40  0001 C CNN "Description"
+F 7 "-40°C +85°C" H 5050 4150 40  0001 C CNN "Temp Range"
+	1    5050 4850
 	-1   0    0    -1  
 $EndComp
-Text Notes 4089 4249 0    79   ~ 0
+Text Notes 4739 4249 0    79   ~ 0
 NOR Flash
 Wire Wire Line
-	3700 4550 3700 4600
-Connection ~ 3700 4550
+	4350 4550 4350 4600
+Connection ~ 4350 4550
 Wire Wire Line
-	3700 4500 3700 4550
+	4350 4500 4350 4550
 Wire Wire Line
-	3900 4550 3700 4550
-NoConn ~ 3900 5150
+	4550 4550 4350 4550
+NoConn ~ 4550 5150
 Wire Wire Line
-	4900 5150 4900 5200
+	5550 5150 5550 5200
 $Comp
 L power:GND #PWR020
 U 1 1 607222F0
-P 4900 5200
-F 0 "#PWR020" H 4900 4950 50  0001 C CNN
-F 1 "GND" H 4905 5027 50  0000 C CNN
-F 2 "" H 4900 5200 50  0001 C CNN
-F 3 "" H 4900 5200 50  0001 C CNN
-	1    4900 5200
+P 5550 5200
+F 0 "#PWR020" H 5550 4950 50  0001 C CNN
+F 1 "GND" H 5555 5027 50  0000 C CNN
+F 2 "" H 5550 5200 50  0001 C CNN
+F 3 "" H 5550 5200 50  0001 C CNN
+	1    5550 5200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4900 4550 2    35   Input ~ 0
+Text GLabel 5550 4550 2    35   Input ~ 0
 ~FLASH_CS~
-Text GLabel 4900 4850 2    50   Input ~ 0
+Text GLabel 5550 4850 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 4900 4950 2    50   Input ~ 0
+Text GLabel 5550 4950 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 4900 4750 2    50   Input ~ 0
+Text GLabel 5550 4750 2    50   Input ~ 0
 SPI_CLK
 $Comp
 L power:GND #PWR017
 U 1 1 606F56ED
-P 3700 4900
-F 0 "#PWR017" H 3700 4650 50  0001 C CNN
-F 1 "GND" H 3705 4727 50  0000 C CNN
-F 2 "" H 3700 4900 50  0001 C CNN
-F 3 "" H 3700 4900 50  0001 C CNN
-	1    3700 4900
+P 4350 4900
+F 0 "#PWR017" H 4350 4650 50  0001 C CNN
+F 1 "GND" H 4355 4727 50  0000 C CNN
+F 2 "" H 4350 4900 50  0001 C CNN
+F 3 "" H 4350 4900 50  0001 C CNN
+	1    4350 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 606F56E7
-P 3700 4750
-F 0 "C4" H 3815 4796 50  0000 L CNN
-F 1 "DNP" H 3815 4705 50  0000 L CNB
-F 2 "JetkovKiCADLib:C_0402_NoSilk" H 3738 4600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf" H 3700 4750 50  0001 C CNN
-F 4 "CAP CER 0.1UF 10V X5R 0402" H 3700 4750 50  0001 C CNN "Description"
-F 5 "Samsung Electro-Mechanics" H 3700 4750 50  0001 C CNN "Manufacturer"
-F 6 "CL05A104KP5NNNC" H 3700 4750 50  0001 C CNN "Part Number"
-F 7 "-55°C +85°C" H 3700 4750 50  0001 C CNN "Temp Range"
-	1    3700 4750
+P 4350 4750
+F 0 "C4" H 4465 4796 50  0000 L CNN
+F 1 "DNP" H 4465 4705 50  0000 L CNB
+F 2 "JetkovKiCADLib:C_0402_NoSilk" H 4388 4600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf" H 4350 4750 50  0001 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0402" H 4350 4750 50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 4350 4750 50  0001 C CNN "Manufacturer"
+F 6 "CL05A104KP5NNNC" H 4350 4750 50  0001 C CNN "Part Number"
+F 7 "-55°C +85°C" H 4350 4750 50  0001 C CNN "Temp Range"
+	1    4350 4750
 	1    0    0    -1  
 $EndComp
 Text Notes 7050 2700 0    79   ~ 0
@@ -890,19 +890,19 @@ Text GLabel 4500 2150 2    50   Input ~ 0
 CHG_STAT
 Text Notes 9400 2300 0    40   ~ 0
 Shutdown Iq: 34uA typ, 105uA max\nRun: 2.6mA typ, 3mA max
-Text Notes 3750 5450 0    40   ~ 0
+Text Notes 4400 5450 0    40   ~ 0
 Shutdown Iq: 1uA typ, 10uA max\nRun: 5mA typ, 20mA max
 $Comp
 L power:+3V3 #PWR?
 U 1 1 609D2642
-P 3700 4500
+P 4350 4500
 AR Path="/60656A7D/609D2642" Ref="#PWR?"  Part="1" 
 AR Path="/609D2642" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 3700 4350 50  0001 C CNN
-F 1 "+3V3" H 3715 4673 50  0000 C CNN
-F 2 "" H 3700 4500 50  0001 C CNN
-F 3 "" H 3700 4500 50  0001 C CNN
-	1    3700 4500
+F 0 "#PWR016" H 4350 4350 50  0001 C CNN
+F 1 "+3V3" H 4365 4673 50  0000 C CNN
+F 2 "" H 4350 4500 50  0001 C CNN
+F 3 "" H 4350 4500 50  0001 C CNN
+	1    4350 4500
 	1    0    0    -1  
 $EndComp
 Text GLabel 4500 2350 2    50   Output ~ 0
@@ -912,70 +912,70 @@ P0.22-0.31 low drive, low frequency only
 $Comp
 L JetkovKiCADLib:CONN_ARM_CM_JTAG_SWD_10 J1
 U 1 1 60A11BCC
-P 2200 4700
-F 0 "J1" H 2200 4975 50  0000 C CNN
-F 1 "CONN_ARM_CM_JTAG_SWD_10" H 2650 4100 50  0001 R BNN
-F 2 "JetkovKiCADLib:20021121-00010XXLFc" H 2150 3950 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf?__cf_chl_jschl_tk__=1db008035b53ebebbdbb0ebce887f24ccde13c12-1614057341-0-Aaj_DXu2WbU8gBOBcIr6UWuew7-QqOWeKTo1gHu35YyMHtsqPe05gr-vmgpx8tCgp4pdsLv90oIx3R7YQpnddbkYZMzOYcY4LN0OAwZt1s_vPLq4aLSRdQiJRU9UuMGf8Zd5dzEF0ayTeKNlT4USZCYu_jGUaAS14BXivWTCltyBfvX3VQvgHNCO_0FlRA7qQuWIetMwBNE8Hf1ZsFjFTAzlcuKp2Nl7CJ2ugmhUp_FKUfdcUUVaM0OSM0369Zmxa7twOwFyn0tkOz4fKFyYGY0E11_UUJRgTJDXAy7UUYlO96CRX6NNomeq-HaOYsEKpiUsnqFnI8NwbVc7VDWHKfQkAudPr4KdrP2VYWwabBXmtZFPbIZFvVUZ2B76zfJ2Fx78Nl7BOflKpuGvFjOCpQfsI-AdwMsFs1LUjaVqzMKT" V 1850 3450 50  0001 C CNN
-F 4 "20021121-00010T1LF" H 2150 4050 40  0001 C CNN "Part Number"
-F 5 "Amphenol ICC (FCI)" H 2150 4050 40  0001 C CNN "Manufacturer"
-F 6 "CONN HEADER SMD 10POS 1.27MM" H 2150 4050 40  0001 C CNN "Description"
-	1    2200 4700
+P 3100 4700
+F 0 "J1" H 3100 4975 50  0000 C CNN
+F 1 "CONN_ARM_CM_JTAG_SWD_10" H 3550 4100 50  0001 R BNN
+F 2 "JetkovKiCADLib:20021121-00010XXLFc" H 3050 3950 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf?__cf_chl_jschl_tk__=1db008035b53ebebbdbb0ebce887f24ccde13c12-1614057341-0-Aaj_DXu2WbU8gBOBcIr6UWuew7-QqOWeKTo1gHu35YyMHtsqPe05gr-vmgpx8tCgp4pdsLv90oIx3R7YQpnddbkYZMzOYcY4LN0OAwZt1s_vPLq4aLSRdQiJRU9UuMGf8Zd5dzEF0ayTeKNlT4USZCYu_jGUaAS14BXivWTCltyBfvX3VQvgHNCO_0FlRA7qQuWIetMwBNE8Hf1ZsFjFTAzlcuKp2Nl7CJ2ugmhUp_FKUfdcUUVaM0OSM0369Zmxa7twOwFyn0tkOz4fKFyYGY0E11_UUJRgTJDXAy7UUYlO96CRX6NNomeq-HaOYsEKpiUsnqFnI8NwbVc7VDWHKfQkAudPr4KdrP2VYWwabBXmtZFPbIZFvVUZ2B76zfJ2Fx78Nl7BOflKpuGvFjOCpQfsI-AdwMsFs1LUjaVqzMKT" V 2750 3450 50  0001 C CNN
+F 4 "20021121-00010T1LF" H 3050 4050 40  0001 C CNN "Part Number"
+F 5 "Amphenol ICC (FCI)" H 3050 4050 40  0001 C CNN "Manufacturer"
+F 6 "CONN HEADER SMD 10POS 1.27MM" H 3050 4050 40  0001 C CNN "Description"
+	1    3100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 60A12883
-P 1650 4550
+P 2550 4550
 AR Path="/60656A7D/60A12883" Ref="#PWR?"  Part="1" 
 AR Path="/60A12883" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 1650 4400 50  0001 C CNN
-F 1 "+3V3" H 1665 4723 50  0000 C CNN
-F 2 "" H 1650 4550 50  0001 C CNN
-F 3 "" H 1650 4550 50  0001 C CNN
-	1    1650 4550
+F 0 "#PWR05" H 2550 4400 50  0001 C CNN
+F 1 "+3V3" H 2565 4723 50  0000 C CNN
+F 2 "" H 2550 4550 50  0001 C CNN
+F 3 "" H 2550 4550 50  0001 C CNN
+	1    2550 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 4550 1650 4600
+	2550 4550 2550 4600
 $Comp
 L power:GND #PWR06
 U 1 1 60A1DE6E
-P 1650 5150
-F 0 "#PWR06" H 1650 4900 50  0001 C CNN
-F 1 "GND" H 1655 4977 50  0000 C CNN
-F 2 "" H 1650 5150 50  0001 C CNN
-F 3 "" H 1650 5150 50  0001 C CNN
-	1    1650 5150
+P 2550 5150
+F 0 "#PWR06" H 2550 4900 50  0001 C CNN
+F 1 "GND" H 2555 4977 50  0000 C CNN
+F 2 "" H 2550 5150 50  0001 C CNN
+F 3 "" H 2550 5150 50  0001 C CNN
+	1    2550 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 5150 1650 4900
-Text GLabel 2700 5100 2    35   Input ~ 0
+	2550 5150 2550 4900
+Text GLabel 3600 5100 2    35   Input ~ 0
 ~RESET~
 Text GLabel 4500 1950 2    35   Input ~ 0
 ~RESET~
-Text GLabel 2700 4600 2    50   BiDi ~ 0
+Text GLabel 3600 4600 2    50   BiDi ~ 0
 SWDIO
-Text GLabel 2700 4700 2    50   Output ~ 0
+Text GLabel 3600 4700 2    50   Output ~ 0
 SWDCLK
-Text GLabel 2700 4800 2    50   Input ~ 0
+Text GLabel 3600 4800 2    50   Input ~ 0
 SWO
-NoConn ~ 2700 4900
+NoConn ~ 3600 4900
 Wire Wire Line
-	2700 5100 2650 5100
+	3600 5100 3550 5100
 Wire Wire Line
-	2700 4900 2650 4900
+	3600 4900 3550 4900
 Wire Wire Line
-	2650 4800 2700 4800
+	3550 4800 3600 4800
 Wire Wire Line
-	2700 4700 2650 4700
+	3600 4700 3550 4700
 Wire Wire Line
-	2650 4600 2700 4600
+	3550 4600 3600 4600
 Wire Wire Line
-	1650 4900 1750 4900
+	2550 4900 2650 4900
 Wire Wire Line
-	1650 4600 1750 4600
+	2550 4600 2650 4600
 Text GLabel 4500 3250 2    50   BiDi ~ 0
 SWDIO
 Text GLabel 4500 3350 2    50   Input ~ 0
@@ -1104,7 +1104,7 @@ Text Notes 2950 3950 0    40   ~ 0
 Shutdown Iq: 0.3uA typ, 1.2uA max\nRun: 3.3mA typ
 Text Notes 3250 1050 0    79   ~ 0
 nRF52832
-Text Notes 1750 4250 0    79   ~ 0
+Text Notes 2650 4250 0    79   ~ 0
 SWD Connector
 Wire Notes Line
 	750  5600 750  800 
@@ -1300,44 +1300,151 @@ F 7 "-40°C +105°C" H 7600 3300 50  0001 C CNN "Temp Range"
 	1    0    0    -1  
 $EndComp
 $Comp
-L JetkovKiCADLib:SM-UART-04L S1
-U 1 1 603C9AA9
-P 12000 5150
-F 0 "S1" H 12078 5188 40  0000 L CNN
-F 1 "SM-UART-04L" H 12078 5112 40  0000 L CNN
-F 2 "JetkovKiCADLib:SM-UART-04L" H 12000 4950 40  0001 C CNN
-F 3 "https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27" H 12000 5150 40  0001 C CNN
-F 4 "SM-UART-04L" H 12000 4950 40  0001 C CNN "Part Number"
-F 5 "Amphenol Advanced Sensors" H 12000 4950 40  0001 C CNN "Manufacturer"
-F 6 "PM2.5 IR LASER DUST SENSOR" H 12000 4950 40  0001 C CNN "Description"
-F 7 "-10°C +50°C" H 12000 4950 40  0001 C CNN "Temp Range"
-	1    12000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 60409DCA
-P 13350 2600
-F 0 "H1" H 13450 2646 50  0000 L CNN
-F 1 "MountingHole" H 13450 2555 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 13350 2600 50  0001 C CNN
-F 3 "~" H 13350 2600 50  0001 C CNN
-	1    13350 2600
+P 6550 7050
+F 0 "H1" H 6650 7096 50  0000 L CNN
+F 1 "MountingHole" H 6650 7005 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6550 7050 50  0001 C CNN
+F 3 "~" H 6550 7050 50  0001 C CNN
+	1    6550 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L JetkovKiCADLib:TL3301SPF160QJ SW1
 U 1 1 604216D1
-P 13100 4600
-F 0 "SW1" H 13100 4885 50  0000 C CNN
-F 1 "TL3301SPF160QJ" H 13100 4794 50  0000 C CNN
-F 2 "JetkovKiCADLib:TL3301EF160QJ" H 13000 4800 50  0001 C CNN
-F 3 "https://www.digikey.ca/htmldatasheets/production/2066007/0/0/1/TL3301SPF160QJ-Drawing.pdf" H 13000 4800 50  0001 C CNN
-F 4 "TL3301SPF160QJ" H 13100 4600 40  0001 C CNN "Part Number"
-F 5 "E-Switch" H 13100 4600 40  0001 C CNN "Manufacturer"
-F 6 "SWITCH TACTILE SPST-NO 0.05A 12V" H 13100 4600 40  0001 C CNN "Description"
-F 7 "-20°C +70°C" H 13100 4600 40  0001 C CNN "Temp Range"
-	1    13100 4600
+P 1300 4500
+F 0 "SW1" V 1300 4750 50  0000 C CNN
+F 1 "TL3301SPF160QJ" V 1450 5250 50  0001 C CNN
+F 2 "JetkovKiCADLib:TL3301EF160QJ" H 1200 4700 50  0001 C CNN
+F 3 "https://www.digikey.ca/htmldatasheets/production/2066007/0/0/1/TL3301SPF160QJ-Drawing.pdf" H 1200 4700 50  0001 C CNN
+F 4 "TL3301SPF160QJ" H 1300 4500 40  0001 C CNN "Part Number"
+F 5 "E-Switch" H 1300 4500 40  0001 C CNN "Manufacturer"
+F 6 "SWITCH TACTILE SPST-NO 0.05A 12V" H 1300 4500 40  0001 C CNN "Description"
+F 7 "-20°C +70°C" H 1300 4500 40  0001 C CNN "Temp Range"
+	1    1300 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L JetkovKiCADLib:SM-UART-04L S1
+U 1 1 603C9AA9
+P 8100 3050
+F 0 "S1" H 8178 3088 40  0000 L CNN
+F 1 "SM-UART-04L" H 8178 3012 40  0000 L CNN
+F 2 "JetkovKiCADLib:SM-UART-04L" H 8100 2850 40  0001 C CNN
+F 3 "https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27" H 8100 3050 40  0001 C CNN
+F 4 "SM-UART-04L" H 8100 2850 40  0001 C CNN "Part Number"
+F 5 "Amphenol Advanced Sensors" H 8100 2850 40  0001 C CNN "Manufacturer"
+F 6 "PM2.5 IR LASER DUST SENSOR" H 8100 2850 40  0001 C CNN "Description"
+F 7 "-10°C +50°C" H 8100 2850 40  0001 C CNN "Temp Range"
+	1    8100 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60400121
+P 1200 4150
+AR Path="/60656A7D/60400121" Ref="#PWR?"  Part="1" 
+AR Path="/60400121" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 1200 4000 50  0001 C CNN
+F 1 "+3V3" H 1215 4323 50  0000 C CNN
+F 2 "" H 1200 4150 50  0001 C CNN
+F 3 "" H 1200 4150 50  0001 C CNN
+	1    1200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 60404E98
+P 1400 5000
+F 0 "R28" H 1470 5046 50  0000 L CNN
+F 1 "10k" H 1470 4955 50  0000 L CNN
+F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1330 5000 50  0001 C CNN
+F 3 "~" H 1400 5000 50  0001 C CNN
+	1    1400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR081
+U 1 1 60404E9E
+P 1400 5150
+F 0 "#PWR081" H 1400 4900 50  0001 C CNN
+F 1 "GND" H 1405 4977 50  0000 C CNN
+F 2 "" H 1400 5150 50  0001 C CNN
+F 3 "" H 1400 5150 50  0001 C CNN
+	1    1400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR082
+U 1 1 6040DDE1
+P 1800 5150
+F 0 "#PWR082" H 1800 4900 50  0001 C CNN
+F 1 "GND" H 1805 4977 50  0000 C CNN
+F 2 "" H 1800 5150 50  0001 C CNN
+F 3 "" H 1800 5150 50  0001 C CNN
+	1    1800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60419530
+P 1600 4800
+AR Path="/60656A7D/60419530" Ref="R?"  Part="1" 
+AR Path="/60419530" Ref="R29"  Part="1" 
+F 0 "R29" V 1777 4736 50  0000 L CNN
+F 1 "100k" V 1700 4700 50  0000 L CNN
+F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1530 4800 50  0001 C CNN
+F 3 "~" H 1600 4800 50  0001 C CNN
+	1    1600 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4800 1400 4850
+Wire Wire Line
+	1400 4800 1450 4800
+Wire Wire Line
+	1750 4800 1800 4800
+Wire Wire Line
+	1800 4800 1800 4850
+$Comp
+L Device:C C26
+U 1 1 604609D2
+P 1800 5000
+F 0 "C26" H 1915 5046 50  0000 L CNN
+F 1 "0.1u" H 1915 4955 50  0000 L CNN
+F 2 "JetkovKiCADLib:C_0402_NoSilk" H 1838 4850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf" H 1800 5000 50  0001 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0402" H 1800 5000 50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 1800 5000 50  0001 C CNN "Manufacturer"
+F 6 "CL05A104KP5NNNC" H 1800 5000 50  0001 C CNN "Part Number"
+F 7 "-55°C +85°C" H 1800 5000 50  0001 C CNN "Temp Range"
+	1    1800 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 900  3650 0    40   ~ 0
+GPIO Specifications\nVmin = -0.3V, Vmax = VCC+0.3V = 3.9V\nVih = 0.7 * VCC = 2.31V\nVil = 0.3 * VCC = 0.99V
+Text GLabel 1900 4800 2    50   Output ~ 0
+BUTTON
+Wire Wire Line
+	1900 4800 1800 4800
+Connection ~ 1800 4800
+Wire Wire Line
+	1400 4750 1400 4800
+Connection ~ 1400 4800
+Wire Wire Line
+	1400 4800 1200 4800
+Wire Wire Line
+	1200 4800 1200 4750
+Wire Wire Line
+	1200 4200 1200 4250
+Wire Wire Line
+	1200 4200 1400 4200
+Wire Wire Line
+	1400 4200 1400 4250
+Wire Wire Line
+	1200 4150 1200 4200
+Connection ~ 1200 4200
+Text Notes 1500 4250 0    79   ~ 0
+Button
 $EndSCHEMATC

@@ -2835,7 +2835,7 @@
   (module JetkovKiCADLib:MCP6041T-I_OT (layer F.Cu) (tedit 603B34BB) (tstamp 60374F06)
     (at 97.3 104.5)
     (path /605B4CA4/605CECCE)
-    (fp_text reference U7 (at -0.09329 -8.7407) (layer F.SilkS)
+    (fp_text reference U7 (at -0.09329 -2.7) (layer F.SilkS)
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     )
     (fp_text value MCP6041T-I_OT (at 12.45727 8.610455) (layer F.Fab) hide
