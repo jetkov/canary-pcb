@@ -603,4 +603,12 @@ Text Notes 9200 4750 0    40   ~ 0
 Run Iq: 0.6uA typ, 1uA max
 Text Notes 7100 3200 0    79   ~ 0
 Gas Sensor
+Text Label 6300 3950 0    40   ~ 0
+SPEC_WE
+Text Label 6300 3850 0    40   ~ 0
+SPEC_RE
+Text Label 6750 3350 0    40   ~ 0
+SPEC_CE
+Text Label 6300 3750 0    40   ~ 0
+CE
 $EndSCHEMATC

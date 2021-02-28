@@ -1470,4 +1470,5 @@ Text Notes 4889 7700 0    40   ~ 0
 Vf @ 3mA = 1.9V\nIntensity = 20 mcd
 Text Notes 5600 7700 0    40   ~ 0
 Vf @ 3mA = 1.8V\nIntensity = 20 mcd
+NoConn ~ 4500 2850
 $EndSCHEMATC
