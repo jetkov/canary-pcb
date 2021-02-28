@@ -31,16 +31,16 @@ $EndComp
 $Comp
 L Device:Crystal Y1
 U 1 1 6032C351
-P 5300 1550
-F 0 "Y1" H 5600 1650 50  0000 C CNN
-F 1 "32.7680 kHz" H 5800 1550 50  0000 C CNN
-F 2 "JetkovKiCADLib:FC135327680KAAC3" H 5300 1550 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en" H 5300 1550 50  0001 C CNN
-F 4 "CRYSTAL 32.7680KHZ 9PF SMD" H 5300 1550 50  0001 C CNN "Description"
-F 5 "EPSON" H 5300 1550 50  0001 C CNN "Manufacturer"
-F 6 "FC-135 32.7680KA-AC3" H 5300 1550 50  0001 C CNN "Part Number"
-F 7 "-40°C +85°C" H 5300 1550 50  0001 C CNN "Temp Range"
-	1    5300 1550
+P 5350 1550
+F 0 "Y1" H 5650 1650 50  0000 C CNN
+F 1 "32.7680 kHz" H 5850 1550 50  0000 C CNN
+F 2 "JetkovKiCADLib:FC135327680KAAC3" H 5350 1550 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en" H 5350 1550 50  0001 C CNN
+F 4 "CRYSTAL 32.7680KHZ 9PF SMD" H 5350 1550 50  0001 C CNN "Description"
+F 5 "EPSON" H 5350 1550 50  0001 C CNN "Manufacturer"
+F 6 "FC-135 32.7680KA-AC3" H 5350 1550 50  0001 C CNN "Part Number"
+F 7 "-40°C +85°C" H 5350 1550 50  0001 C CNN "Temp Range"
+	1    5350 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -61,26 +61,22 @@ $EndComp
 $Comp
 L Device:C C5
 U 1 1 6032EF01
-P 5100 1750
-F 0 "C5" H 5200 1700 50  0000 L CNN
-F 1 "12pF" H 5200 1800 50  0000 L CNN
-F 2 "JetkovKiCADLib:C_0402_NoSilk" H 5138 1600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/12/14/Data%20sheet_CL05C120JB5NNNC.pdf" H 5100 1750 50  0001 C CNN
-F 4 "CAP CER 12PF 50V C0G/NP0 0402" H 5100 1750 50  0001 C CNN "Description"
-F 5 "Samsung Electro-Mechanics" H 5100 1750 50  0001 C CNN "Manufacturer"
-F 6 "CL05C120JB5NNNC" H 5100 1750 50  0001 C CNN "Part Number"
-F 7 "-55°C +125°C" H 5100 1750 50  0001 C CNN "Temp Range"
-	1    5100 1750
+P 5200 1750
+F 0 "C5" H 5300 1700 50  0000 L CNN
+F 1 "12pF" H 5300 1800 50  0000 L CNN
+F 2 "JetkovKiCADLib:C_0402_NoSilk" H 5238 1600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/12/14/Data%20sheet_CL05C120JB5NNNC.pdf" H 5200 1750 50  0001 C CNN
+F 4 "CAP CER 12PF 50V C0G/NP0 0402" H 5200 1750 50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 5200 1750 50  0001 C CNN "Manufacturer"
+F 6 "CL05C120JB5NNNC" H 5200 1750 50  0001 C CNN "Part Number"
+F 7 "-55°C +125°C" H 5200 1750 50  0001 C CNN "Temp Range"
+	1    5200 1750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5450 1550 5500 1550
-Wire Wire Line
 	5500 1550 5500 1600
 Wire Wire Line
-	5150 1550 5100 1550
-Wire Wire Line
-	5100 1550 5100 1600
+	5200 1550 5200 1600
 $Comp
 L power:GND #PWR023
 U 1 1 6032FCEC
@@ -95,22 +91,18 @@ $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 60330241
-P 5100 1900
-F 0 "#PWR021" H 5100 1650 50  0001 C CNN
-F 1 "GND" H 5105 1727 50  0000 C CNN
-F 2 "" H 5100 1900 50  0001 C CNN
-F 3 "" H 5100 1900 50  0001 C CNN
-	1    5100 1900
+P 5200 1900
+F 0 "#PWR021" H 5200 1650 50  0001 C CNN
+F 1 "GND" H 5205 1727 50  0000 C CNN
+F 2 "" H 5200 1900 50  0001 C CNN
+F 3 "" H 5200 1900 50  0001 C CNN
+	1    5200 1900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5500 1550 5500 1350
 Wire Wire Line
 	5500 1350 4450 1350
-Connection ~ 5500 1550
-Wire Wire Line
-	5100 1550 4450 1550
-Connection ~ 5100 1550
 $Comp
 L power:GND #PWR018
 U 1 1 6033AD68
@@ -232,7 +224,7 @@ L Device:R R9
 U 1 1 606DC2F6
 P 5150 6950
 F 0 "R9" H 5220 6996 50  0000 L CNN
-F 1 "?" H 5220 6905 50  0000 L CNN
+F 1 "470R" H 5220 6905 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 5080 6950 50  0001 C CNN
 F 3 "~" H 5150 6950 50  0001 C CNN
 	1    5150 6950
@@ -256,7 +248,7 @@ L Device:R R8
 U 1 1 606E6796
 P 4600 6950
 F 0 "R8" H 4670 6996 50  0000 L CNN
-F 1 "?" H 4670 6905 50  0000 L CNN
+F 1 "470R" H 4670 6905 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 4530 6950 50  0001 C CNN
 F 3 "~" H 4600 6950 50  0001 C CNN
 	1    4600 6950
@@ -280,7 +272,7 @@ L Device:R R10
 U 1 1 606EAB86
 P 5700 6950
 F 0 "R10" H 5770 6996 50  0000 L CNN
-F 1 "?" H 5770 6905 50  0000 L CNN
+F 1 "500R" H 5770 6905 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 5630 6950 50  0001 C CNN
 F 3 "~" H 5700 6950 50  0001 C CNN
 	1    5700 6950
@@ -860,11 +852,11 @@ Wire Wire Line
 	1700 2850 1250 2850
 Wire Wire Line
 	1500 2950 1250 2950
-Text GLabel 4500 2850 2    50   Input ~ 0
+Text GLabel 2700 2350 0    50   Input ~ 0
 LED_AMBER
-Text GLabel 4500 2750 2    50   Input ~ 0
+Text GLabel 2700 2250 0    50   Input ~ 0
 LED_RED
-Text GLabel 4500 2950 2    50   Input ~ 0
+Text GLabel 2700 2450 0    50   Input ~ 0
 LED_GREEN
 Text GLabel 4500 3050 2    50   Input ~ 0
 PIEZO_PWM
@@ -1358,7 +1350,7 @@ L Device:R R28
 U 1 1 60404E98
 P 1400 5000
 F 0 "R28" H 1470 5046 50  0000 L CNN
-F 1 "10k" H 1470 4955 50  0000 L CNN
+F 1 "100k" H 1470 4955 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1330 5000 50  0001 C CNN
 F 3 "~" H 1400 5000 50  0001 C CNN
 	1    1400 5000
@@ -1447,4 +1439,35 @@ Wire Wire Line
 Connection ~ 1200 4200
 Text Notes 1500 4250 0    79   ~ 0
 Button
+NoConn ~ 2700 1750
+NoConn ~ 2700 1850
+Wire Wire Line
+	2750 1750 2700 1750
+Wire Wire Line
+	2700 1850 2750 1850
+Wire Wire Line
+	4450 1850 4500 1850
+Wire Wire Line
+	4450 1750 4500 1750
+Wire Wire Line
+	2750 2250 2700 2250
+Wire Wire Line
+	2750 2350 2700 2350
+Wire Wire Line
+	2750 2450 2700 2450
+NoConn ~ 4500 1850
+NoConn ~ 4500 2750
+NoConn ~ 4500 2950
+Connection ~ 5500 1550
+Wire Wire Line
+	4450 1550 5200 1550
+Connection ~ 5200 1550
+Text GLabel 4500 1750 2    50   Input ~ 0
+BUTTON
+Text Notes 4200 7700 0    40   ~ 0
+Vf @ 3mA = 1.9V\nIntensity = 8 mcd
+Text Notes 4889 7700 0    40   ~ 0
+Vf @ 3mA = 1.9V\nIntensity = 20 mcd
+Text Notes 5600 7700 0    40   ~ 0
+Vf @ 3mA = 1.8V\nIntensity = 20 mcd
 $EndSCHEMATC
