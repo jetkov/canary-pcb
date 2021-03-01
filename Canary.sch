@@ -14,21 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L JetkovKiCADLib:BMD-300-A-R J2
-U 1 1 60305893
-P 3600 2350
-F 0 "J2" H 2900 3500 50  0000 C CNN
-F 1 "BMD-300-A-R" H 4050 3500 50  0000 C CNN
-F 2 "JetkovKiCADLib:BMD-300-A-R" H 3550 1850 50  0001 L BNN
-F 3 "https://www.u-blox.com/sites/default/files/BMD-300_DataSheet_%28UBX-19033350%29.pdf" H 3600 2350 50  0001 L BNN
-F 4 "BMD-300-A-R" H 3550 1850 50  0001 C CNN "Part Number"
-F 5 "U-Blox" H 3550 1850 50  0001 C CNN "Manufacturer"
-F 6 "RX TXRX MOD BLE 5.0 NORDIC SMD" H 3550 1850 50  0001 C CNN "Description"
-F 7 "-40°C +85°C" H 3650 1750 50  0001 C CNN "Temp Range"
-	1    3600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal Y1
 U 1 1 6032C351
 P 5350 1550
@@ -1478,4 +1463,19 @@ Text Label 2300 6950 0    40   ~ 0
 NG
 Text Label 1200 4800 0    40   ~ 0
 RBTN
+$Comp
+L JetkovKiCADLib:BMD-300-A-R U12
+U 1 1 6084C612
+P 3600 2350
+F 0 "U12" H 2900 3500 50  0000 C CNN
+F 1 "BMD-300-A-R" H 3600 3500 50  0000 C CNN
+F 2 "JetkovKiCADLib:BMD-300-A-R" H 3550 1650 50  0001 L BNN
+F 3 "https://www.u-blox.com/sites/default/files/BMD-300_DataSheet_%28UBX-19033350%29.pdf" H 3600 2350 50  0001 L BNN
+F 4 "BMD-300-A-R" H 3550 1850 50  0001 C CNN "Part Number"
+F 5 "U-Blox" H 3550 1850 50  0001 C CNN "Manufacturer"
+F 6 "RX TXRX MOD BLE 5.0 NORDIC SMD" H 3550 1850 50  0001 C CNN "Description"
+F 7 "-40°C +85°C" H 3650 1750 50  0001 C CNN "Temp Range"
+	1    3600 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
