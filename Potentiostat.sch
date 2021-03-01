@@ -89,7 +89,7 @@ P 7450 3850
 AR Path="/605CEC15" Ref="U?"  Part="1" 
 AR Path="/605B4CA4/605CEC15" Ref="U7"  Part="1" 
 F 0 "U7" H 7200 4200 50  0000 C CNN
-F 1 "SPEC-110-902" H 7450 3500 50  0000 C CNN
+F 1 "DNP" H 7450 3500 50  0000 C CNN
 F 2 "JetkovKiCADLib:SPEC-110-902" H 7200 3250 50  0001 L BNN
 F 3 "http://www.spec-sensors.com/wp-content/uploads/2016/06/RESP_IRR_20-C-Package-110-902.pdf" H 7750 3400 50  0001 L BNN
 F 4 "110-902" H 7500 3150 40  0001 C CNN "Part Number"

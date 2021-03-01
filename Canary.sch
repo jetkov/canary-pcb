@@ -346,8 +346,6 @@ F 7 "-55°C +155°C" H 2150 6950 50  0001 C CNN "Temp Range"
 $EndComp
 Wire Wire Line
 	1900 6700 1650 6700
-Text Notes 12100 900  0    118  ~ 0
-TODO\n- Jellybean BOM\n- Review
 Text GLabel 4500 6300 0    50   Input ~ 0
 LED_GREEN
 $Comp
