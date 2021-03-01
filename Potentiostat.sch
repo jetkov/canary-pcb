@@ -70,7 +70,11 @@ AR Path="/605B4CA4/605CEC09" Ref="R16"  Part="1"
 F 0 "R16" H 6720 3596 50  0000 L CNN
 F 1 "49R9" H 6720 3505 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 6580 3550 50  0001 C CNN
-F 3 "~" H 6650 3550 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6650 3550 50  0001 C CNN
+F 4 "RES 49.9 OHM 1% 1/16W 0402" H 6650 3550 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 6650 3550 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0402FT49R9" H 6650 3550 50  0001 C CNN "Part Number"
+F 7 "-55°C +155°C" H 6650 3550 50  0001 C CNN "Temp Range"
 	1    6650 3550
 	-1   0    0    -1  
 $EndComp
@@ -121,7 +125,11 @@ AR Path="/605B4CA4/605CEC24" Ref="R15"  Part="1"
 F 0 "R15" H 6620 4346 50  0000 L CNN
 F 1 "499k" H 6620 4255 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 6480 4300 50  0001 C CNN
-F 3 "~" H 6550 4300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6550 4300 50  0001 C CNN
+F 4 "RES 499K OHM 1% 1/16W 0402" H 6550 4300 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 6550 4300 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0402FT499K" H 6550 4300 50  0001 C CNN "Part Number"
+F 7 "-55°C +155°C" H 6550 4300 50  0001 C CNN "Temp Range"
 	1    6550 4300
 	-1   0    0    -1  
 $EndComp
@@ -135,6 +143,10 @@ F 0 "C16" H 6865 4346 50  0000 L CNN
 F 1 "DNP" H 6865 4255 50  0000 L CNB
 F 2 "JetkovKiCADLib:C_0402_NoSilk" H 6788 4150 50  0001 C CNN
 F 3 "~" H 6750 4300 50  0001 C CNN
+F 4 "~" H 6750 4300 50  0001 C CNN "Description"
+F 5 "~" H 6750 4300 50  0001 C CNN "Manufacturer"
+F 6 "~" H 6750 4300 50  0001 C CNN "Part Number"
+F 7 "~" H 6750 4300 50  0001 C CNN "Temp Range"
 	1    6750 4300
 	1    0    0    -1  
 $EndComp
@@ -355,6 +367,10 @@ F 0 "R14" H 3270 3796 50  0000 L CNN
 F 1 "DNP" H 3270 3705 50  0000 L CNB
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 3130 3750 50  0001 C CNN
 F 3 "~" H 3200 3750 50  0001 C CNN
+F 4 "~" H 3200 3750 50  0001 C CNN "Description"
+F 5 "~" H 3200 3750 50  0001 C CNN "Manufacturer"
+F 6 "~" H 3200 3750 50  0001 C CNN "Part Number"
+F 7 "~" H 3200 3750 50  0001 C CNN "Temp Range"
 	1    3200 3750
 	1    0    0    -1  
 $EndComp
@@ -368,6 +384,10 @@ F 0 "C13" H 3315 4096 50  0000 L CNN
 F 1 "DNP" H 3315 4005 50  0000 L CNB
 F 2 "JetkovKiCADLib:C_0402_NoSilk" H 3238 3900 50  0001 C CNN
 F 3 "~" H 3200 4050 50  0001 C CNN
+F 4 "~" H 3200 4050 50  0001 C CNN "Description"
+F 5 "~" H 3200 4050 50  0001 C CNN "Manufacturer"
+F 6 "~" H 3200 4050 50  0001 C CNN "Part Number"
+F 7 "~" H 3200 4050 50  0001 C CNN "Temp Range"
 	1    3200 4050
 	1    0    0    -1  
 $EndComp
@@ -574,6 +594,10 @@ F 0 "R17" H 9120 4196 50  0000 L CNN
 F 1 "DNP" H 9120 4105 50  0000 L CNB
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 8980 4150 50  0001 C CNN
 F 3 "~" H 9050 4150 50  0001 C CNN
+F 4 "~" H 9050 4150 50  0001 C CNN "Description"
+F 5 "~" H 9050 4150 50  0001 C CNN "Manufacturer"
+F 6 "~" H 9050 4150 50  0001 C CNN "Part Number"
+F 7 "~" H 9050 4150 50  0001 C CNN "Temp Range"
 	1    9050 4150
 	-1   0    0    -1  
 $EndComp
