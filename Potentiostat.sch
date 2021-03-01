@@ -322,9 +322,13 @@ P 1650 4250
 AR Path="/605CEC7C" Ref="R?"  Part="1" 
 AR Path="/605B4CA4/605CEC7C" Ref="R13"  Part="1" 
 F 0 "R13" H 1720 4296 50  0000 L CNN
-F 1 "1M" H 1720 4205 50  0000 L CNN
+F 1 "2M" H 1720 4205 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1580 4250 50  0001 C CNN
-F 3 "~" H 1650 4250 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1650 4250 50  0001 C CNN
+F 4 "RES 2M OHM 1% 1/16W 0402" H 1650 4250 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 1650 4250 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0402FT2M00" H 1650 4250 50  0001 C CNN "Part Number"
+F 7 "-55°C +155°C" H 1650 4250 50  0001 C CNN "Temp Range"
 	1    1650 4250
 	-1   0    0    -1  
 $EndComp

@@ -426,9 +426,13 @@ L Device:R R26
 U 1 1 60683D2C
 P 6350 4400
 F 0 "R26" H 6420 4446 50  0000 L CNN
-F 1 "1M" H 6420 4355 50  0000 L CNN
+F 1 "2M" H 6420 4355 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 6280 4400 50  0001 C CNN
-F 3 "~" H 6350 4400 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6350 4400 50  0001 C CNN
+F 4 "RES 2M OHM 1% 1/16W 0402" H 6350 4400 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 6350 4400 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0402FT2M00" H 6350 4400 50  0001 C CNN "Part Number"
+F 7 "-55°C +155°C" H 6350 4400 50  0001 C CNN "Temp Range"
 	1    6350 4400
 	-1   0    0    -1  
 $EndComp
@@ -888,9 +892,13 @@ L Device:R R18
 U 1 1 6095BC7F
 P 3400 4600
 F 0 "R18" H 3470 4646 50  0000 L CNN
-F 1 "1M" H 3470 4555 50  0000 L CNN
+F 1 "2M" H 3470 4555 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 3330 4600 50  0001 C CNN
-F 3 "~" H 3400 4600 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3400 4600 50  0001 C CNN
+F 4 "RES 2M OHM 1% 1/16W 0402" H 3400 4600 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 3400 4600 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0402FT2M00" H 3400 4600 50  0001 C CNN "Part Number"
+F 7 "-55°C +155°C" H 3400 4600 50  0001 C CNN "Temp Range"
 	1    3400 4600
 	-1   0    0    -1  
 $EndComp

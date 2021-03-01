@@ -93,12 +93,12 @@ L Device:R R6
 U 1 1 605FCF4A
 P 1650 6450
 F 0 "R6" H 1720 6496 50  0000 L CNN
-F 1 "100k" H 1720 6405 50  0000 L CNN
+F 1 "180k" H 1720 6405 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1580 6450 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1650 6450 50  0001 C CNN
-F 4 "RES 100K OHM 1% 1/16W 0402" H 1650 6450 50  0001 C CNN "Description"
+F 4 "RES 180K OHM 1% 1/16W 0402" H 1650 6450 50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc" H 1650 6450 50  0001 C CNN "Manufacturer"
-F 6 "RMCF0402FT100K" H 1650 6450 50  0001 C CNN "Part Number"
+F 6 "RMCF0402FT180K" H 1650 6450 50  0001 C CNN "Part Number"
 F 7 "-55°C +155°C" H 1650 6450 50  0001 C CNN "Temp Range"
 	1    1650 6450
 	-1   0    0    -1  
@@ -319,12 +319,12 @@ L Device:R R8
 U 1 1 603C3F75
 P 2150 6450
 F 0 "R8" V 2350 6450 50  0000 L CNN
-F 1 "100R" V 2250 6350 50  0000 L CNN
+F 1 "470R" V 2250 6350 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 2080 6450 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2150 6450 50  0001 C CNN
-F 4 "RES 100 OHM 1% 1/16W 0402" H 2150 6450 50  0001 C CNN "Description"
+F 4 "RES 470 OHM 1% 1/16W 0402" H 2150 6450 50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc" H 2150 6450 50  0001 C CNN "Manufacturer"
-F 6 "RMCF0402FT100R" H 2150 6450 50  0001 C CNN "Part Number"
+F 6 "RMCF0402FT470R" H 2150 6450 50  0001 C CNN "Part Number"
 F 7 "-55°C +155°C" H 2150 6450 50  0001 C CNN "Temp Range"
 	1    2150 6450
 	0    -1   -1   0   
@@ -334,12 +334,12 @@ L Device:R R9
 U 1 1 603C8D12
 P 2150 6950
 F 0 "R9" V 2350 6950 50  0000 L CNN
-F 1 "100R" V 2250 6850 50  0000 L CNN
+F 1 "470R" V 2250 6850 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 2080 6950 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2150 6950 50  0001 C CNN
-F 4 "RES 100 OHM 1% 1/16W 0402" H 2150 6950 50  0001 C CNN "Description"
+F 4 "RES 470 OHM 1% 1/16W 0402" H 2150 6950 50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc" H 2150 6950 50  0001 C CNN "Manufacturer"
-F 6 "RMCF0402FT100R" H 2150 6950 50  0001 C CNN "Part Number"
+F 6 "RMCF0402FT470R" H 2150 6950 50  0001 C CNN "Part Number"
 F 7 "-55°C +155°C" H 2150 6950 50  0001 C CNN "Temp Range"
 	1    2150 6950
 	0    -1   -1   0   
@@ -1272,7 +1272,7 @@ L JetkovKiCADLib:SM-UART-04L S1
 U 1 1 603C9AA9
 P 8100 3050
 F 0 "S1" H 8178 3088 40  0000 L CNN
-F 1 "SM-UART-04L" H 8178 3012 40  0000 L CNN
+F 1 "DNP" H 8178 3012 40  0000 L CNN
 F 2 "JetkovKiCADLib:SM-UART-04L" H 8100 2850 40  0001 C CNN
 F 3 "https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27" H 8100 3050 40  0001 C CNN
 F 4 "SM-UART-04L" H 8100 2850 40  0001 C CNN "Part Number"
@@ -1300,12 +1300,12 @@ L Device:R R3
 U 1 1 60404E98
 P 1400 5000
 F 0 "R3" H 1470 5046 50  0000 L CNN
-F 1 "100k" H 1470 4955 50  0000 L CNN
+F 1 "180k" H 1470 4955 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1330 5000 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1400 5000 50  0001 C CNN
-F 4 "RES 100K OHM 1% 1/16W 0402" H 1400 5000 50  0001 C CNN "Description"
+F 4 "RES 180K OHM 1% 1/16W 0402" H 1400 5000 50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc" H 1400 5000 50  0001 C CNN "Manufacturer"
-F 6 "RMCF0402FT100K" H 1400 5000 50  0001 C CNN "Part Number"
+F 6 "RMCF0402FT180K" H 1400 5000 50  0001 C CNN "Part Number"
 F 7 "-55°C +155°C" H 1400 5000 50  0001 C CNN "Temp Range"
 	1    1400 5000
 	1    0    0    -1  
@@ -1339,12 +1339,12 @@ P 1600 4800
 AR Path="/60656A7D/60419530" Ref="R?"  Part="1" 
 AR Path="/60419530" Ref="R5"  Part="1" 
 F 0 "R5" V 1777 4736 50  0000 L CNN
-F 1 "100k" V 1700 4700 50  0000 L CNN
+F 1 "180k" V 1700 4700 50  0000 L CNN
 F 2 "JetkovKiCADLib:R_0402_NoSilk" V 1530 4800 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1600 4800 50  0001 C CNN
-F 4 "RES 100K OHM 1% 1/16W 0402" H 1600 4800 50  0001 C CNN "Description"
+F 4 "RES 180K OHM 1% 1/16W 0402" H 1600 4800 50  0001 C CNN "Description"
 F 5 "Stackpole Electronics Inc" H 1600 4800 50  0001 C CNN "Manufacturer"
-F 6 "RMCF0402FT100K" H 1600 4800 50  0001 C CNN "Part Number"
+F 6 "RMCF0402FT180K" H 1600 4800 50  0001 C CNN "Part Number"
 F 7 "-55°C +155°C" H 1600 4800 50  0001 C CNN "Temp Range"
 	1    1600 4800
 	0    -1   -1   0   
