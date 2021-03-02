@@ -1228,8 +1228,8 @@ $Comp
 L JetkovKiCADLib:SM-UART-04L S1
 U 1 1 603C9AA9
 P 8100 3050
-F 0 "S1" H 8178 3088 40  0000 L CNN
-F 1 "DNP" H 8178 3012 40  0000 L CNN
+F 0 "S1" H 8167 3052 40  0000 L CNN
+F 1 "DNP" H 8178 3012 40  0001 L CNN
 F 2 "JetkovKiCADLib:SM-UART-04L" H 8100 2850 40  0001 C CNN
 F 3 "https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27" H 8100 3050 40  0001 C CNN
 F 4 "SM-UART-04L" H 8100 2850 40  0001 C CNN "Part Number"
