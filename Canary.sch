@@ -8,10 +8,10 @@ Title "Project Canary"
 Date "2021-02-24"
 Rev "A.1"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "Group 18 / Alex Petkovic"
+Comment2 "MTE 380 Design Project"
+Comment3 "Mechatronics Engineering 3B"
+Comment4 "University of Waterloo"
 $EndDescr
 $Comp
 L Device:Crystal Y1

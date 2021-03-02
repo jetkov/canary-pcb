@@ -1,0 +1,2483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Alex\Documents\KiCAD\Canary\Canary.sch</source>
+    <date>2021-03-02 04:31:07</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Project Canary</title>
+        <company/>
+        <rev>A.1</rev>
+        <date>2021-02-24</date>
+        <source>Canary.sch</source>
+        <comment number="1" value="Group 18 / Alex Petkovic"/>
+        <comment number="2" value="MTE 380 Design Project"/>
+        <comment number="3" value="Mechatronics Engineering 3B"/>
+        <comment number="4" value="University of Waterloo"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Potentiostat/" tstamps="/605B4CA4/">
+      <title_block>
+        <title>Project Canary</title>
+        <company/>
+        <rev>A.1</rev>
+        <date>2021-02-24</date>
+        <source>Potentiostat.sch</source>
+        <comment number="1" value="Group 18 / Alex Petkovic"/>
+        <comment number="2" value="MTE 380 Design Project"/>
+        <comment number="3" value="Mechatronics Engineering 3B"/>
+        <comment number="4" value="University of Waterloo"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/60656A7D/">
+      <title_block>
+        <title>Project Canary</title>
+        <company/>
+        <rev>A.1</rev>
+        <date>2021-02-24</date>
+        <source>Power.sch</source>
+        <comment number="1" value="Group 18 / Alex Petkovic"/>
+        <comment number="2" value="MTE 380 Design Project"/>
+        <comment number="3" value="Mechatronics Engineering 3B"/>
+        <comment number="4" value="University of Waterloo"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Y1">
+      <value>32.7680 kHz</value>
+      <footprint>JetkovKiCADLib:ECS-327-9-12-C-TR</footprint>
+      <datasheet>https://www.ecsxtal.com/store/pdf/ECX_12.pdf</datasheet>
+      <fields>
+        <field name="Description">CRYSTAL 32.7680KHZ 9PF 10PPM SMD</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Part Number">ECS-.327-9-12-C-TR</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032C351</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>12pF</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/12/14/Data%20sheet_CL05C120JB5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 12PF 50V C0G/NP0 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05C120JB5NNNC</field>
+        <field name="Temp Range">-55°C +125°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032D496</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>12pF</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/12/14/Data%20sheet_CL05C120JB5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 12PF 50V C0G/NP0 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05C120JB5NNNC</field>
+        <field name="Temp Range">-55°C +125°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032EF01</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>180k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 180K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT180K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605FCF4A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>470R</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 470 OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT470R</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606DC2F6</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470R</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 470 OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT470R</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606E6796</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>499R</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 499 OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT499R</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606EAB86</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PMN42XPEAH</value>
+      <footprint>JetkovKiCADLib:PMN-NXP-TSOP6-SOT457</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMN42XPEA.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET P-CH 20V 5.7A 6TSOP</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">PMN42XPEAH</field>
+        <field name="Temp Range">-55°C +150°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="PMN42XPEAH" description="P-MOSFET transistor, drain/gate/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603AA039</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PMN30UNX</value>
+      <footprint>JetkovKiCADLib:PMN-NXP-TSOP6-SOT457</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMN30UN.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-CH 30V 4.5A 6TSOP</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">PMN30UNX</field>
+        <field name="Temp Range">-55°C +150°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="PMN30UNX" description="N-MOSFET transistor, drain/gate/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603AB800</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PMN30UNX</value>
+      <footprint>JetkovKiCADLib:PMN-NXP-TSOP6-SOT457</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMN30UN.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-CH 30V 4.5A 6TSOP</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">PMN30UNX</field>
+        <field name="Temp Range">-55°C +150°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="PMN30UNX" description="N-MOSFET transistor, drain/gate/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603B8CF9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470R</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 470 OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT470R</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603C3F75</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470R</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 470 OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT470R</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603C8D12</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>JetkovKiCADLib:155124xx73200</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/155124RS73200.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RED CLEAR 1204 SMD R/A</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Part Number">155124RS73200</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B8A31</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>YELLOW</value>
+      <footprint>JetkovKiCADLib:155124xx73200</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/155124YS73200.pdf</datasheet>
+      <fields>
+        <field name="Description">LED YELLOW CLEAR 1204 SMD R/A</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Part Number">155124YS73200</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A9B75</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <footprint>JetkovKiCADLib:155124xx73200</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/155124VS73200.pdf</datasheet>
+      <fields>
+        <field name="Description">LED GREEN CLEAR 1204 SMD R/A</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Part Number">155124VS73200</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ADD69</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A91FEF</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SHTC3</value>
+      <footprint>JetkovKiCADLib:SHTC3</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHTC3_D1.pdf</datasheet>
+      <fields>
+        <field name="Description">SENSOR HUMI/TEMP I2C 2% SMD</field>
+        <field name="Manufacturer">Sensirion AG</field>
+        <field name="Part Number">SHTC3</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="SHTC3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603451FE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B29AFF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFF0E5</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SGP40</value>
+      <footprint>JetkovKiCADLib:SGP40-D-R4</footprint>
+      <datasheet>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9_Gas_Sensors/Sensirion_Gas_Sensors_SGP40_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Description">AIR QUALITY GAS SENSOR FOR VOC'S</field>
+        <field name="Manufacturer">Sensirion AG</field>
+        <field name="Part Number">SGP40-D-R4</field>
+        <field name="Temp Range">-10°C +50°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="SGP40" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60344373</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:MX25V1006FM1I</footprint>
+      <datasheet>http://www.macronix.com/Lists/Datasheet/Attachments/7430/MX25V1006F,%202.5V,%201Mb,%20v1.0.pdf</datasheet>
+      <fields>
+        <field name="Description">IC FLASH 1MBIT SPI/DUAL I/O 8SOP</field>
+        <field name="Manufacturer">Macronix</field>
+        <field name="Part Number">MX25V1006FM1I</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="MX25V1006FM1I" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60355852</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606F56E7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT10K0</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089E774</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT10K0</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608A8C54</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_ARM_CM_JTAG_SWD_10</value>
+      <footprint>JetkovKiCADLib:20021121-00010XXLFc</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf?__cf_chl_jschl_tk__=1db008035b53ebebbdbb0ebce887f24ccde13c12-1614057341-0-Aaj_DXu2WbU8gBOBcIr6UWuew7-QqOWeKTo1gHu35YyMHtsqPe05gr-vmgpx8tCgp4pdsLv90oIx3R7YQpnddbkYZMzOYcY4LN0OAwZt1s_vPLq4aLSRdQiJRU9UuMGf8Zd5dzEF0ayTeKNlT4USZCYu_jGUaAS14BXivWTCltyBfvX3VQvgHNCO_0FlRA7qQuWIetMwBNE8Hf1ZsFjFTAzlcuKp2Nl7CJ2ugmhUp_FKUfdcUUVaM0OSM0369Zmxa7twOwFyn0tkOz4fKFyYGY0E11_UUJRgTJDXAy7UUYlO96CRX6NNomeq-HaOYsEKpiUsnqFnI8NwbVc7VDWHKfQkAudPr4KdrP2VYWwabBXmtZFPbIZFvVUZ2B76zfJ2Fx78Nl7BOflKpuGvFjOCpQfsI-AdwMsFs1LUjaVqzMKT</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER SMD 10POS 1.27MM</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Part Number">20021121-00010T1LF</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="CONN_ARM_CM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A11BCC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.4M</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2.4M OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT2M40</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B34622</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2M</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2M OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT2M00</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B34631</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B6D9B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E114F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606FE9BE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>20021311-00010T4LF</value>
+      <footprint>JetkovKiCADLib:20021311-00010T4LF</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021311.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN RCPT 10POS 0.05 GOLD PCB</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Part Number">20021311-00010T4LF</field>
+        <field name="Temp Range">-40°C +105°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="20021311-00010T4LF" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031814B</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">~</field>
+        <field name="Manufacturer">~</field>
+        <field name="Part Number">~</field>
+        <field name="Temp Range">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60409DCA</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TL3301SPF160QJ</value>
+      <footprint>JetkovKiCADLib:TL3301EF160QJ</footprint>
+      <datasheet>https://www.digikey.ca/htmldatasheets/production/2066007/0/0/1/TL3301SPF160QJ-Drawing.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Part Number">TL3301SPF160QJ</field>
+        <field name="Temp Range">-20°C +70°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="TL3301SPF160QJ" description="Push button switch, generic, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604216D1</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:SM-UART-04L</footprint>
+      <datasheet>https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27</datasheet>
+      <fields>
+        <field name="Description">PM2.5 IR LASER DUST SENSOR</field>
+        <field name="Manufacturer">Amphenol Advanced Sensors</field>
+        <field name="Part Number">SM-UART-04L</field>
+        <field name="Temp Range">-10°C +50°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="SM-UART-04L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603C9AA9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>180k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 180K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT180K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60404E98</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>180k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 180K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT180K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60419530</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604609D2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BMD-300-A-R</value>
+      <footprint>JetkovKiCADLib:BMD-300-A-R</footprint>
+      <datasheet>https://www.u-blox.com/sites/default/files/BMD-300_DataSheet_%28UBX-19033350%29.pdf</datasheet>
+      <fields>
+        <field name="Description">RX TXRX MOD BLE 5.0 NORDIC SMD</field>
+        <field name="Manufacturer">U-Blox</field>
+        <field name="Part Number">BMD-300-A-R</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="BMD-300-A-R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084C612</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">~</field>
+        <field name="Manufacturer">~</field>
+        <field name="Part Number">~</field>
+        <field name="Temp Range">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60576303</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>CANARY-LOGO</value>
+      <footprint>JetkovKiCADLib:CANARY-LOGO</footprint>
+      <libsource lib="JetkovKiCADLib" part="CANARY-LOGO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60599864</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603E3FCA</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>PKMCS0909E4000-R1</value>
+      <footprint>JetkovKiCADLib:PKMCS0909E4000-R1</footprint>
+      <datasheet>https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx</datasheet>
+      <fields>
+        <field name="Description">AUDIO PIEZO TRANSDUCER 12.5V SMD</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">PKMCS0909E4000-R1</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="PKMCS0909E4000-R1" description="Crystal speaker/transducer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603826A5</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>487k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 487K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT487K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603FF1FC</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky_ALT</value>
+      <footprint>JetkovKiCADLib:NSPU3051</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NSPU3051-D.PDF</datasheet>
+      <fields>
+        <field name="Description">TVS DIODE 5.5V 9.5V 2X2DFN</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSPU3051N2T5G</field>
+        <field name="Temp Range">-65°C +150°C</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603EE231</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_Schottky_ALT</value>
+      <footprint>JetkovKiCADLib:NSPU3051</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NSPU3051-D.PDF</datasheet>
+      <fields>
+        <field name="Description">TVS DIODE 5.5V 9.5V 2X2DFN</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSPU3051N2T5G</field>
+        <field name="Temp Range">-65°C +150°C</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60463B42</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60420BD8</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60421C0D</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604274F6</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6042CD9B</tstamp>
+    </comp>
+    <comp ref="FID5">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604325C6</tstamp>
+    </comp>
+    <comp ref="FID6">
+      <value>Fiducial</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60437D6F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LMP91000</value>
+      <footprint>JetkovKiCADLib:LMP91000</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmp91000</datasheet>
+      <fields>
+        <field name="Description">IC AFE 1 CHAN 8BIT 14WSON</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">LMP91000SD/NOPB</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="LMP91000" description=""/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEBF3</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>49R9</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 49.9 OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT49R9</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC09</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>110-902</value>
+      <footprint>JetkovKiCADLib:SPEC-110-902</footprint>
+      <datasheet>http://www.spec-sensors.com/wp-content/uploads/2016/06/RESP_IRR_20-C-Package-110-902.pdf</datasheet>
+      <fields>
+        <field name="Description">SENS GAS AIR QUAL ANALG CUR MOD</field>
+        <field name="Manufacturer">SPEC Sensors, LLC</field>
+        <field name="Part Number">110-902</field>
+        <field name="Temp Range">-10°C +40°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="SPEC-110-902" description=""/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC15</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>499k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 499K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT499K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC24</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">~</field>
+        <field name="Manufacturer">~</field>
+        <field name="Part Number">~</field>
+        <field name="Temp Range">~</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC2A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC3F</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MAX6071BAUT21T</value>
+      <footprint>JetkovKiCADLib:MAX6071BAUT21</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf</datasheet>
+      <fields>
+        <field name="Description">IC VREF SERIES 0.08% SOT23-6</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="Part Number">MAX6071BAUT21+T</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="MAX6071BAUT21T" description=""/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC51</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC62</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC69</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2M</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2M OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT2M00</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC7C</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">~</field>
+        <field name="Manufacturer">~</field>
+        <field name="Part Number">~</field>
+        <field name="Temp Range">~</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC91</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">~</field>
+        <field name="Manufacturer">~</field>
+        <field name="Part Number">~</field>
+        <field name="Temp Range">~</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CEC97</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CECB0</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MCP6041T-I_OT</value>
+      <footprint>JetkovKiCADLib:MCP6041T-I_OT</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en014787</datasheet>
+      <fields>
+        <field name="Description">IC OPAMP GP 1 CIRCUIT SOT23-5</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Part Number">MCP6041T-I/OT</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="MCP6041T-I_OT" description=""/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CECCE</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/08/17/Data%20sheet_CL05A104KP5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A104KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CECE8</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>DNP</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">~</field>
+        <field name="Manufacturer">~</field>
+        <field name="Part Number">~</field>
+        <field name="Temp Range">~</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Potentiostat/" tstamps="/605B4CA4/"/>
+      <tstamp>605CECFA</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>S2B-PH-SM4-TB</value>
+      <footprint>JetkovKiCADLib:JST_S2B-PH-SM4-TB</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER SMD R/A 2POS 2MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Part Number">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Temp Range">-25°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="S2B-PH-SM4-TB" description=""/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683C3E</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>86.6k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 86.6K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT86K6</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683C57</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2u</value>
+      <footprint>JetkovKiCADLib:MAMK2520T2R2M</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MAMK2520T2R2M%20%20&amp;u=M</datasheet>
+      <fields>
+        <field name="Description">FIXED IND 2.2UH 1.9A 117 MOHM</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Part Number">MAMK2520T2R2M</field>
+        <field name="Temp Range">-40°C +105°C</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683C63</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10u</value>
+      <footprint>JetkovKiCADLib:C_0603</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 10V X5R 0603</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683C76</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>JetkovKiCADLib:C_0603</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 10V X5R 0603</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683C82</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>MCP73831T-2ATI_OT</value>
+      <footprint>JetkovKiCADLib:MCP7383xx-xxxx_OT</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</datasheet>
+      <fields>
+        <field name="Description">IC BATT CNTL LI-ION 1CEL SOT23-5</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Part Number">MCP73831T-2ATI/OT</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="MCP73831T-2ATI_OT" description=""/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683C96</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT10K0</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683CA6</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>RT6150AGQW</value>
+      <footprint>JetkovKiCADLib:RT6150AGQW</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT6150A=RT6150B/DS6150AB-05.pdf</datasheet>
+      <fields>
+        <field name="Description">IC REG BCK BST ADJ 800MA 10WDFN</field>
+        <field name="Manufacturer">Richtek USA Inc.</field>
+        <field name="Part Number">RT6150AGQW</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="RT6150AGQW" description=""/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683CB8</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>4.7u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Char.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A475MP5NRNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683CCA</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>487k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 487K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT487K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683CF2</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>4.7u</value>
+      <footprint>JetkovKiCADLib:LQH3NPZ4R7MMEL</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9140.pdf</datasheet>
+      <fields>
+        <field name="Description">FIXED IND 4.7UH 1A 120 MOHM SMD</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">LQH3NPZ4R7MMEL</field>
+        <field name="Temp Range">-40°C +105°C</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D02</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2M</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2M OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT2M00</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D2C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>JetkovKiCADLib:PMEG2010EA</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2010EA.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 20V 1A SOD323</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">PMEG2010EA,135</field>
+        <field name="Temp Range">-65°C +125°C</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D47</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>22u</value>
+      <footprint>JetkovKiCADLib:C_0603</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A226ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 22UF 10V X5R 0603</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRM188R61A226ME15D</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D53</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>22u</value>
+      <footprint>JetkovKiCADLib:C_0603</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A226ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 22UF 10V X5R 0603</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRM188R61A226ME15D</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D63</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>9.1k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 9.1K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT9K10</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D6D</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>3k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 3K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT3K00</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D73</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>5.1k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 5.1K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT5K10</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D9F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>5.1k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 5.1K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT5K10</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683DA5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB4125-GF-A</value>
+      <footprint>JetkovKiCADLib:USB4125-GF-A</footprint>
+      <datasheet>https://gct.co/files/drawings/usb4125.pdf</datasheet>
+      <fields>
+        <field name="Description">USB C REC, GF, RA, 6P, SMT, TH S</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Part Number">USB4125-GF-A</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="USB4125-GF-A" description=""/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683DAF</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>4.7u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A475MP5NRNC_Char.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A475MP5NRNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683DBC</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683DF1</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683E0F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>0R</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402ZT0R00</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683E1E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2M</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2M OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT2M00</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>6095BC7F</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LP5907MFX-3.2</value>
+      <footprint>JetkovKiCADLib:LP5907MFX</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp5907</datasheet>
+      <fields>
+        <field name="Description">IC REG LINEAR 3.2V 250MA SOT23-5</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">LP5907MFX-3.2/NOPB</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="LP5907MFX-3.2" description=""/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683DFE</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1u</value>
+      <footprint>JetkovKiCADLib:C_0402_NoSilk</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A105KP5NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 10V X5R 0402</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">CL05A105KP5NNNC</field>
+        <field name="Temp Range">-55°C +85°C</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60388BED</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>180k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 180K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT180K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683DB5</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>300k</value>
+      <footprint>JetkovKiCADLib:R_0402_NoSilk</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 300K OHM 1% 1/16W 0402</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT300K</field>
+        <field name="Temp Range">-55°C +155°C</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683CE0</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>MIC2288YD5</value>
+      <footprint>JetkovKiCADLib:MIC2288YD5</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580187</datasheet>
+      <fields>
+        <field name="Description">IC REG BOOST ADJ 1.2A TSOT23-5</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Part Number">MIC2288YD5-TR</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <libsource lib="JetkovKiCADLib" part="MIC2288YD5" description=""/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>60683D0E</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_Schottky_ALT</value>
+      <footprint>JetkovKiCADLib:NSPU3051</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NSPU3051-D.PDF</datasheet>
+      <fields>
+        <field name="Description">TVS DIODE 5.5V 9.5V 2X2DFN</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSPU3051N2T5G</field>
+        <field name="Temp Range">-65°C +150°C</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/Power/" tstamps="/60656A7D/"/>
+      <tstamp>6047AD75</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_ALT">
+      <description>Schottky diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="20021311-00010T4LF">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021311.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">20021311-00010T4LF</field>
+        <field name="Footprint">JetkovKiCADLib:20021311-00010T4LF</field>
+        <field name="Part Number">20021311-00010T4LF</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Description">CONN RCPT 10POS 0.05 GOLD PCB</field>
+        <field name="Temp Range">-40°C +105°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="BMD-300-A-R">
+      <docs>https://www.u-blox.com/sites/default/files/BMD-300_DataSheet_%28UBX-19033350%29.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMD-300-A-R</field>
+        <field name="Footprint">JetkovKiCADLib:BMD-300-A-R</field>
+        <field name="Part Number">BMD-300-A-R</field>
+        <field name="Manufacturer">U-Blox</field>
+        <field name="Description">RX TXRX MOD BLE 5.0 NORDIC SMD</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="GND1" type="power_in"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND1" type="power_in"/>
+        <pin num="6" name="P0.25" type="BiDi"/>
+        <pin num="7" name="P0.26" type="BiDi"/>
+        <pin num="8" name="P0.27" type="BiDi"/>
+        <pin num="9" name="P0.28" type="BiDi"/>
+        <pin num="10" name="P0.29" type="BiDi"/>
+        <pin num="11" name="P0.30" type="BiDi"/>
+        <pin num="12" name="P0.31" type="BiDi"/>
+        <pin num="13" name="P0.00/XTAL1" type="BiDi"/>
+        <pin num="14" name="P0.01/XTAL2" type="BiDi"/>
+        <pin num="15" name="P0.02/AIN0" type="BiDi"/>
+        <pin num="16" name="GND1" type="power_in"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND1" type="power_in"/>
+        <pin num="19" name="P0.03/AIN1" type="BiDi"/>
+        <pin num="20" name="P0.04/AIN2" type="BiDi"/>
+        <pin num="21" name="P0.05/AIN3" type="BiDi"/>
+        <pin num="22" name="P0.06" type="BiDi"/>
+        <pin num="23" name="P0.07" type="BiDi"/>
+        <pin num="24" name="P0.08" type="BiDi"/>
+        <pin num="25" name="P0.09/NFC1" type="BiDi"/>
+        <pin num="26" name="P0.10/NFC2" type="BiDi"/>
+        <pin num="27" name="P0.11" type="BiDi"/>
+        <pin num="28" name="P0.12" type="BiDi"/>
+        <pin num="29" name="GND1" type="power_in"/>
+        <pin num="30" name="GND1" type="power_in"/>
+        <pin num="31" name="P0.13" type="BiDi"/>
+        <pin num="32" name="P0.14/TRACEDATA[3]" type="BiDi"/>
+        <pin num="33" name="P0.15/TRACEDATA[2]" type="BiDi"/>
+        <pin num="34" name="P0.16/TRACEDATA[1]" type="BiDi"/>
+        <pin num="35" name="P0.17" type="BiDi"/>
+        <pin num="36" name="P0.18/TRACEDATA[0]/SWO" type="BiDi"/>
+        <pin num="37" name="P0.19" type="BiDi"/>
+        <pin num="38" name="P0.20/TRACECLK" type="BiDi"/>
+        <pin num="39" name="P0.21/~RESET" type="BiDi"/>
+        <pin num="40" name="P0.22" type="BiDi"/>
+        <pin num="41" name="P0.23" type="BiDi"/>
+        <pin num="42" name="P0.24" type="BiDi"/>
+        <pin num="43" name="SWCLK" type="input"/>
+        <pin num="44" name="SWDIO" type="BiDi"/>
+        <pin num="45" name="GND1" type="power_in"/>
+        <pin num="46" name="GND1" type="power_in"/>
+        <pin num="47" name="GND1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="CANARY-LOGO">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">CANARY-LOGO</field>
+        <field name="Footprint">JetkovKiCADLib:CANARY-LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="CONN_ARM_CM_JTAG_SWD_10">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf?__cf_chl_jschl_tk__=1db008035b53ebebbdbb0ebce887f24ccde13c12-1614057341-0-Aaj_DXu2WbU8gBOBcIr6UWuew7-QqOWeKTo1gHu35YyMHtsqPe05gr-vmgpx8tCgp4pdsLv90oIx3R7YQpnddbkYZMzOYcY4LN0OAwZt1s_vPLq4aLSRdQiJRU9UuMGf8Zd5dzEF0ayTeKNlT4USZCYu_jGUaAS14BXivWTCltyBfvX3VQvgHNCO_0FlRA7qQuWIetMwBNE8Hf1ZsFjFTAzlcuKp2Nl7CJ2ugmhUp_FKUfdcUUVaM0OSM0369Zmxa7twOwFyn0tkOz4fKFyYGY0E11_UUJRgTJDXAy7UUYlO96CRX6NNomeq-HaOYsEKpiUsnqFnI8NwbVc7VDWHKfQkAudPr4KdrP2VYWwabBXmtZFPbIZFvVUZ2B76zfJ2Fx78Nl7BOflKpuGvFjOCpQfsI-AdwMsFs1LUjaVqzMKT</docs>
+      <footprints>
+        <fp>PinHeader?2x05?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_ARM_CM_JTAG_SWD_10</field>
+        <field name="Footprint">JetkovKiCADLib:20021121-00010XXLFc</field>
+        <field name="Part Number">20021121-00010T1LF</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Description">CONN HEADER SMD 10POS 1.27MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWDCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+        <pin num="7" name="KEY" type="NotConnected"/>
+        <pin num="8" name="NC/TDI" type="output"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="~RESET~" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="LMP91000">
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmp91000</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMP91000</field>
+        <field name="Footprint">JetkovKiCADLib:LMP91000</field>
+        <field name="Part Number">LMP91000SD/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Description">IC AFE 1 CHAN 8BIT 14WSON</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DGND" type="power_in"/>
+        <pin num="2" name="~MENB" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="AGND" type="power_in"/>
+        <pin num="8" name="VOUT" type="output"/>
+        <pin num="9" name="C2" type="passive"/>
+        <pin num="10" name="C1" type="passive"/>
+        <pin num="11" name="VREF" type="power_in"/>
+        <pin num="12" name="WE" type="output"/>
+        <pin num="13" name="RE" type="input"/>
+        <pin num="14" name="CE" type="output"/>
+        <pin num="15" name="DAP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="LP5907MFX-3.2">
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp5907</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907MFX-3.2</field>
+        <field name="Footprint">JetkovKiCADLib:LP5907MFX</field>
+        <field name="Part Number">LP5907MFX-3.2/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Description">IC REG LINEAR 3.2V 250MA SOT23-5</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="power_in"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="MAX6071BAUT21T">
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX6070-MAX6071.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6071BAUT21T</field>
+        <field name="Footprint">JetkovKiCADLib:MAX6071BAUT21</field>
+        <field name="Part Number">MAX6071BAUT21+T</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="Description">IC VREF SERIES 0.08% SOT23-6</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GNDF" type="power_in"/>
+        <pin num="2" name="GNDS" type="input"/>
+        <pin num="3" name="EN" type="BiDi"/>
+        <pin num="4" name="IN" type="power_in"/>
+        <pin num="5" name="OUTS" type="input"/>
+        <pin num="6" name="OUTF" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="MCP6041T-I_OT">
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en014787</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6041T-I_OT</field>
+        <field name="Footprint">JetkovKiCADLib:MCP6041T-I_OT</field>
+        <field name="Part Number">MCP6041T-I/OT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Description">IC OPAMP GP 1 CIRCUIT SOT23-5</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="MCP73831T-2ATI_OT">
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831T-2ATI_OT</field>
+        <field name="Footprint">JetkovKiCADLib:MCP7383xx-xxxx_OT</field>
+        <field name="Part Number">MCP73831T-2ATI/OT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Description">IC BATT CNTL LI-ION 1CEL SOT23-5</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="MIC2288YD5">
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580187</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC2288YD5</field>
+        <field name="Footprint">JetkovKiCADLib:MIC2288YD5</field>
+        <field name="Part Number">MIC2288YD5-TR</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Description">IC REG BOOST ADJ 1.2A TSOT23-5</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="MX25V1006FM1I">
+      <docs>http://www.macronix.com/Lists/Datasheet/Attachments/7430/MX25V1006F,%202.5V,%201Mb,%20v1.0.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MX25V1006FM1I</field>
+        <field name="Footprint">JetkovKiCADLib:MX25V1006FM1I</field>
+        <field name="Part Number">MX25V1006FM1I</field>
+        <field name="Manufacturer">Macronix</field>
+        <field name="Description">IC FLASH 1MBIT SPI/DUAL I/O 8SOP</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS~" type="input"/>
+        <pin num="2" name="SO/SIO1" type="BiDi"/>
+        <pin num="3" name="~WP~" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SI/SDO0" type="BiDi"/>
+        <pin num="6" name="SCLK" type="input"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="PKMCS0909E4000-R1">
+      <description>Crystal speaker/transducer</description>
+      <docs>https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">PKMCS0909E4000-R1</field>
+        <field name="Footprint">JetkovKiCADLib:PKMCS0909E4000-R1</field>
+        <field name="Part Number">PKMCS0909E4000-R1</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Description">AUDIO PIEZO TRANSDUCER 12.5V SMD</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="PMN30UNX">
+      <description>N-MOSFET transistor, drain/gate/source</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMN30UN.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMN30UNX</field>
+        <field name="Footprint">JetkovKiCADLib:PMN-NXP-TSOP6-SOT457</field>
+        <field name="Part Number">PMN30UNX</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Description">MOSFET N-CH 30V 4.5A 6TSOP</field>
+        <field name="Temp Range">-55°C +150°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="PMN42XPEAH">
+      <description>P-MOSFET transistor, drain/gate/source</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMN42XPEA.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMN42XPEAH</field>
+        <field name="Footprint">JetkovKiCADLib:PMN-NXP-TSOP6-SOT457</field>
+        <field name="Part Number">PMN42XPEAH</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Description">MOSFET P-CH 20V 5.7A 6TSOP</field>
+        <field name="Temp Range">-55°C +150°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="RT6150AGQW">
+      <docs>https://www.richtek.com/assets/product_file/RT6150A=RT6150B/DS6150AB-05.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT6150AGQW</field>
+        <field name="Footprint">JetkovKiCADLib:RT6150AGQW</field>
+        <field name="Part Number">RT6150AGQW</field>
+        <field name="Manufacturer">Richtek USA Inc.</field>
+        <field name="Description">IC REG BCK BST ADJ 800MA 10WDFN</field>
+        <field name="Temp Range">-40°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="LX2" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="LX1" type="passive"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS" type="input"/>
+        <pin num="8" name="VINA" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="S2B-PH-SM4-TB">
+      <docs>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">S2B-PH-SM4-TB</field>
+        <field name="Footprint">JetkovKiCADLib:JST_S2B-PH-SM4-TB</field>
+        <field name="Part Number">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Description">CONN HEADER SMD R/A 2POS 2MM</field>
+        <field name="Temp Range">-25°C +85°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="SGP40">
+      <docs>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9_Gas_Sensors/Sensirion_Gas_Sensors_SGP40_Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SGP40</field>
+        <field name="Footprint">JetkovKiCADLib:MCP7383xx-xxxx_OT</field>
+        <field name="Part Number">SGP40-D-R4</field>
+        <field name="Manufacturer">Sensirion AG</field>
+        <field name="Description">AIR QUALITY GAS SENSOR FOR VOC'S</field>
+        <field name="Temp Range">-10°C +50°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="VDDH" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="SHTC3">
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHTC3_D1.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SHTC3</field>
+        <field name="Footprint">JetkovKiCADLib:MCP7383xx-xxxx_OT</field>
+        <field name="Part Number">SHTC3</field>
+        <field name="Manufacturer">Sensirion AG</field>
+        <field name="Description">SENSOR HUMI/TEMP I2C 2% SMD</field>
+        <field name="Temp Range">-40°C +125°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="SM-UART-04L">
+      <docs>https://www.amphenol-sensors.com/en/component/edocman/514-telaire-sm-uart-04l-laser-dust-sensor-application-note/download?Itemid=8488%20%27</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SM-UART-04L</field>
+        <field name="Footprint">JetkovKiCADLib:SM-UART-04L</field>
+        <field name="Part Number">SM-UART-04L</field>
+        <field name="Manufacturer">Amphenol Advanced Sensors</field>
+        <field name="Description">PM2.5 IR LASER DUST SENSOR</field>
+        <field name="Temp Range">-10°C +50°C</field>
+      </fields>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="SPEC-110-902">
+      <docs>http://www.spec-sensors.com/wp-content/uploads/2016/06/RESP_IRR_20-C-Package-110-902.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPEC-110-902</field>
+        <field name="Footprint">JetkovKiCADLib:MIC2288YD5</field>
+        <field name="Part Number">110-902</field>
+        <field name="Manufacturer">SPEC Sensors, LLC</field>
+        <field name="Description">SENS GAS AIR QUAL ANALG CUR MOD</field>
+        <field name="Temp Range">-10°C +40°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="WE" type="input"/>
+        <pin num="5" name="RE" type="output"/>
+        <pin num="6" name="CE" type="input"/>
+        <pin num="10" name="WE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="TL3301SPF160QJ">
+      <description>Push button switch, generic, four pins</description>
+      <docs>https://www.digikey.ca/htmldatasheets/production/2066007/0/0/1/TL3301SPF160QJ-Drawing.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TL3301SPF160QJ</field>
+        <field name="Footprint">JetkovKiCADLib:TL3301EF160QJ</field>
+        <field name="Part Number">TL3301SPF160QJ</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+        <field name="Temp Range">-20°C +70°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JetkovKiCADLib" part="USB4125-GF-A">
+      <docs>https://gct.co/files/drawings/usb4125.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4125-GF-A</field>
+        <field name="Footprint">JetkovKiCADLib:USB4125-GF-A</field>
+        <field name="Part Number">USB4125-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Description">USB C REC, GF, RA, 6P, SMT, TH S</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A12" name="GND" type="power_in"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B12" name="GND" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="JetkovKiCADLib">
+      <uri>C:/Users/Alex/Documents/KiCAD/JetkovKiCADLib/JetkovKiCADLib.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="2" name="/RBTN">
+      <node ref="SW1" pin="4"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="6" name="/BAT_DIV">
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U6" pin="15"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U10" pin="2"/>
+      <node ref="J4" pin="S1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="D7" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U9" pin="9"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U11" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J3" pin="B12"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="J3" pin="S4"/>
+      <node ref="J3" pin="S1"/>
+      <node ref="J3" pin="S2"/>
+      <node ref="J3" pin="S3"/>
+      <node ref="J3" pin="A12"/>
+      <node ref="R29" pin="2"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="LS1" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="Q3" pin="4"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="46"/>
+      <node ref="U1" pin="45"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="8" name="BUTTON">
+      <node ref="C2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="9" name="+BATT">
+      <node ref="U11" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U12" pin="5"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="6"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="10" name="I2C_SDA">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="28"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="11" name="I2C_SCL">
+      <node ref="U6" pin="3"/>
+      <node ref="U1" pin="31"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="SWO">
+      <node ref="U1" pin="36"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="13" name="SWDCLK">
+      <node ref="U1" pin="44"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="14" name="SWDIO">
+      <node ref="U1" pin="43"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="16" name="~RESET~">
+      <node ref="U1" pin="39"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="17" name="CHG_STAT">
+      <node ref="R24" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="18" name="3V3_PS">
+      <node ref="U1" pin="41"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="19" name="VDD_EN">
+      <node ref="U10" pin="3"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="20" name="5V_EN">
+      <node ref="U1" pin="6"/>
+      <node ref="U12" pin="4"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="21" name="VREF_EN">
+      <node ref="U1" pin="7"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="22" name="~LMP_EN~">
+      <node ref="U1" pin="8"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="27" name="~FLASH_CS~">
+      <node ref="U1" pin="35"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="28" name="SPI_MISO">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="29" name="SPI_MOSI">
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="30" name="SPI_CLK">
+      <node ref="U1" pin="32"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="31" name="~PM_SLEEP~">
+      <node ref="U1" pin="27"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="32" name="PM_UART_TXD">
+      <node ref="U1" pin="26"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="33" name="PM_UART_RXD">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="34" name="LMP_VOUT_B">
+      <node ref="U1" pin="21"/>
+      <node ref="U8" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="35" name="Net-(TP1-Pad1)">
+      <node ref="TP1" pin="1"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="36" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="5"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="Q3" pin="5"/>
+      <node ref="Q3" pin="6"/>
+    </net>
+    <net code="37" name="/PDRIVE_O">
+      <node ref="R30" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="LS1" pin="1"/>
+    </net>
+    <net code="38" name="/XTAL2">
+      <node ref="U1" pin="14"/>
+      <node ref="C6" pin="2"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="39" name="/XTAL1">
+      <node ref="C7" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="40" name="~PM_RST~">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="41" name="LED_GREEN">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="42" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="44" name="LED_RED">
+      <node ref="U1" pin="22"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D3-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="46" name="/NG">
+      <node ref="R9" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="47" name="/PG">
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="48" name="/PDRIVE">
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="49" name="PIEZO_PWM">
+      <node ref="U1" pin="12"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="50" name="LED_AMBER">
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="51" name="VDD">
+      <node ref="C17" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="52" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="56" name="Net-(C13-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="57" name="LMP_VOUT">
+      <node ref="U8" pin="3"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="58" name="/Potentiostat/SPEC_CE">
+      <node ref="U7" pin="6"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="59" name="VREF">
+      <node ref="U6" pin="11"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="6"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="60" name="/Potentiostat/SPEC_WE">
+      <node ref="U6" pin="12"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="61" name="/Potentiostat/SPEC_RE">
+      <node ref="U6" pin="13"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="62" name="/Potentiostat/CE">
+      <node ref="R16" pin="2"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="63" name="/Potentiostat/FILT_C2">
+      <node ref="U6" pin="9"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="64" name="/Potentiostat/FILT_C1">
+      <node ref="C16" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="65" name="/Power/USB_CC1">
+      <node ref="J3" pin="A5"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="66" name="/Power/USB_CC2">
+      <node ref="J3" pin="B5"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="67" name="/Power/CST">
+      <node ref="R24" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="68" name="/Power/HVR_FB">
+      <node ref="R28" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="69" name="/Power/LVR_LX2">
+      <node ref="U9" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="70" name="VBUS">
+      <node ref="C21" pin="1"/>
+      <node ref="J3" pin="A9"/>
+      <node ref="U11" pin="4"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J3" pin="B9"/>
+    </net>
+    <net code="71" name="/Power/CPR">
+      <node ref="R27" pin="1"/>
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="72" name="/Power/LVR_LX1">
+      <node ref="U9" pin="4"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="73" name="/Power/LVR_FB">
+      <node ref="R21" pin="2"/>
+      <node ref="U9" pin="10"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="74" name="/Power/HVR_SW">
+      <node ref="D4" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U12" pin="1"/>
+    </net>
+  </nets>
+</export>

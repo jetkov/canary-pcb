@@ -1,0 +1,18 @@
+Board Size: 56 x 38 mm
+Board Thickness: 1.6mm
+Material: FR4 (TG-140)
+Inner and Outer Layer Weight: 1.0 Oz
+
+Blind or Buried Vias: NO
+Via in Pad: NO
+Impedance Control: NO
+Gold Fingers: NO
+
+Number of Layers: 4
+Mask Color: Black
+Silk Color: White
+Surface Finish: Immersion Gold
+
+Smallest Package: 0402
+Min Track/Spacing: 6 mil
+Min Hole Size: 0.3 mm
