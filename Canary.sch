@@ -19,11 +19,11 @@ U 1 1 6032C351
 P 5350 1550
 F 0 "Y1" H 5650 1650 50  0000 C CNN
 F 1 "32.7680 kHz" H 5850 1550 50  0000 C CNN
-F 2 "JetkovKiCADLib:FC135327680KAAC3" H 5350 1550 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en" H 5350 1550 50  0001 C CNN
+F 2 "JetkovKiCADLib:FC-12M-327680KA-AC3" H 5350 1550 50  0001 C CNN
+F 3 "https://www.digikey.ca/htmldatasheets/production/1726763/0/0/1/FC-12D-12M-Series-Datasheet.pdf" H 5350 1550 50  0001 C CNN
 F 4 "CRYSTAL 32.7680KHZ 9PF SMD" H 5350 1550 50  0001 C CNN "Description"
 F 5 "EPSON" H 5350 1550 50  0001 C CNN "Manufacturer"
-F 6 "FC-135 32.7680KA-AC3" H 5350 1550 50  0001 C CNN "Part Number"
+F 6 "FC-12M 32.7680KA-AC3" H 5350 1550 50  0001 C CNN "Part Number"
 F 7 "-40°C +85°C" H 5350 1550 50  0001 C CNN "Temp Range"
 	1    5350 1550
 	1    0    0    -1  
