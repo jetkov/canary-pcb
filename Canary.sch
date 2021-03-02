@@ -127,8 +127,6 @@ Connection ~ 1900 6700
 Wire Wire Line
 	1900 6700 1900 6950
 Wire Wire Line
-	2600 6650 2600 6700
-Wire Wire Line
 	1650 6600 1650 6700
 $Comp
 L power:GND #PWR017
@@ -143,26 +141,6 @@ F 3 "" H 2600 7200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2600 7150 2600 7200
-Wire Wire Line
-	3000 6700 2600 6700
-Connection ~ 2600 6700
-Wire Wire Line
-	2600 6700 2600 6750
-Wire Wire Line
-	3000 6800 2950 6800
-Wire Wire Line
-	2950 6800 2950 7200
-$Comp
-L power:GND #PWR018
-U 1 1 6069713F
-P 2950 7200
-F 0 "#PWR018" H 2950 6950 50  0001 C CNN
-F 1 "GND" H 2955 7027 50  0000 C CNN
-F 2 "" H 2950 7200 50  0001 C CNN
-F 3 "" H 2950 7200 50  0001 C CNN
-	1    2950 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 6450 1900 6450
 Wire Wire Line
@@ -273,7 +251,7 @@ $Comp
 L JetkovKiCADLib:PMN42XPEAH Q2
 U 1 1 603AA039
 P 2500 6450
-F 0 "Q2" H 2705 6450 50  0000 L CNN
+F 0 "Q2" H 2450 6250 50  0000 L CNN
 F 1 "PMN42XPEAH" H 2705 6405 50  0001 L CNN
 F 2 "JetkovKiCADLib:PMN-NXP-TSOP6-SOT457" H 2600 5800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMN42XPEA.pdf" H 2500 5950 50  0001 C CNN
@@ -288,7 +266,7 @@ $Comp
 L JetkovKiCADLib:PMN30UNX Q3
 U 1 1 603AB800
 P 2500 6950
-F 0 "Q3" H 2705 6950 50  0000 L CNN
+F 0 "Q3" H 2450 6750 50  0000 L CNN
 F 1 "PMN30UNX" H 2705 6905 50  0001 L CNN
 F 2 "JetkovKiCADLib:PMN-NXP-TSOP6-SOT457" H 2650 6350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMN30UN.pdf" H 2550 6450 50  0001 C CNN
@@ -399,8 +377,6 @@ Wire Notes Line
 	6150 5900 6150 7500
 Text Notes 750  5850 0    79   Italic 0
 Indication
-Text Notes 3400 6850 0    79   ~ 0
-Pizeo\nBuzzer
 $Comp
 L Device:C C8
 U 1 1 60A91FEF
@@ -610,7 +586,7 @@ Text GLabel 5550 4550 2    35   Input ~ 0
 ~FLASH_CS~
 Text GLabel 5550 4850 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 5550 4950 2    50   Input ~ 0
+Text GLabel 5550 4950 2    50   Output ~ 0
 SPI_MISO
 Text GLabel 5550 4750 2    50   Input ~ 0
 SPI_CLK
@@ -686,7 +662,7 @@ NoConn ~ 7900 3400
 NoConn ~ 7900 3300
 Text GLabel 7350 3450 0    50   Input ~ 0
 PM_UART_RXD
-Text GLabel 7350 3550 0    50   Input ~ 0
+Text GLabel 7350 3550 0    50   Output ~ 0
 PM_UART_TXD
 $Comp
 L power:+5V #PWR033
@@ -725,13 +701,13 @@ F 3 "" H 9250 1400 50  0001 C CNN
 	1    9250 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2550 0    50   Input ~ 0
+Text GLabel 2700 2550 0    50   Output ~ 0
 PM_UART_RXD
 Text GLabel 2700 2650 0    50   Input ~ 0
 PM_UART_TXD
 Text GLabel 7950 3500 2    35   Input ~ 0
 ~PM_SLEEP~
-Text GLabel 2700 2750 0    35   Input ~ 0
+Text GLabel 2700 2750 0    35   Output ~ 0
 ~PM_SLEEP~
 Text GLabel 1250 2950 0    50   Input ~ 0
 I2C_SCL
@@ -799,21 +775,21 @@ Wire Wire Line
 	1700 2850 1250 2850
 Wire Wire Line
 	1500 2950 1250 2950
-Text GLabel 2700 2350 0    50   Input ~ 0
+Text GLabel 2700 2350 0    50   Output ~ 0
 LED_AMBER
-Text GLabel 2700 2250 0    50   Input ~ 0
+Text GLabel 2700 2250 0    50   Output ~ 0
 LED_RED
-Text GLabel 2700 2450 0    50   Input ~ 0
+Text GLabel 2700 2450 0    50   Output ~ 0
 LED_GREEN
 Text GLabel 4500 3050 2    50   Input ~ 0
 PIEZO_PWM
 Text GLabel 2700 3450 0    35   Input ~ 0
 ~FLASH_CS~
-Text GLabel 2700 3250 0    50   Input ~ 0
+Text GLabel 2700 3250 0    50   Output ~ 0
 SPI_MOSI
 Text GLabel 2700 3350 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 2700 3150 0    50   Input ~ 0
+Text GLabel 2700 3150 0    50   Output ~ 0
 SPI_CLK
 Text GLabel 4500 2650 2    35   Output ~ 0
 ~LMP_EN~
@@ -1201,25 +1177,8 @@ Text Label 4500 1550 0    40   ~ 0
 XTAL2
 Text Label 4500 1350 0    40   ~ 0
 XTAL1
-Text Label 2700 6700 0    40   ~ 0
-PDRIVE_O
 Text Label 1650 6700 0    40   ~ 0
 PDRIVE
-$Comp
-L JetkovKiCADLib:PKMCS0909E4000-R1 LS1
-U 1 1 603826A5
-P 3200 6700
-F 0 "LS1" H 3100 6850 50  0000 L CNN
-F 1 "PKMCS0909E4000-R1" H 3100 6350 50  0000 L CNN
-F 2 "JetkovKiCADLib:PKMCS0909E4000-R1" H 3215 6350 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx" H 3165 6650 50  0001 C CNN
-F 4 "PKMCS0909E4000-R1" H 3150 6400 40  0001 C CNN "Part Number"
-F 5 "Murata Electronics" H 3150 6400 40  0001 C CNN "Manufacturer"
-F 6 "AUDIO PIEZO TRANSDUCER 12.5V SMD" H 3250 6400 40  0001 C CNN "Description"
-F 7 "-40°C +85°C" H 3150 6400 40  0001 C CNN "Temp Range"
-	1    3200 6700
-	1    0    0    -1  
-$EndComp
 $Comp
 L JetkovKiCADLib:20021311-00010T4LF J2
 U 1 1 6031814B
@@ -1396,7 +1355,6 @@ Connection ~ 1200 4200
 Text Notes 1500 4250 0    79   ~ 0
 Button
 NoConn ~ 2700 1750
-NoConn ~ 2700 1850
 Wire Wire Line
 	2750 1750 2700 1750
 Wire Wire Line
@@ -1552,6 +1510,141 @@ F 1 "CANARY-LOGO" H 6550 7200 40  0001 C CNN
 F 2 "JetkovKiCADLib:CANARY-LOGO" H 6550 7100 40  0001 C CNN
 F 3 "" H 6550 7300 40  0001 C CNN
 	1    6550 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 603E3FCA
+P 2700 1850
+F 0 "TP1" V 2781 1905 50  0000 L CNN
+F 1 "TestPoint" H 2758 1877 50  0001 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2900 1850 50  0001 C CNN
+F 3 "~" H 2900 1850 50  0001 C CNN
+	1    2700 1850
+	0    -1   -1   0   
+$EndComp
+Text Notes 2900 7750 0    40   ~ 0
+Assume 20pF capacitance\n4kHz -> 250us = 20T\n250us / 20 = RC -> R = 625k
+$Comp
+L JetkovKiCADLib:PKMCS0909E4000-R1 LS1
+U 1 1 603826A5
+P 3550 6700
+F 0 "LS1" H 3450 6850 50  0000 L CNN
+F 1 "PKMCS0909E4000-R1" H 3450 6350 50  0000 L CNN
+F 2 "JetkovKiCADLib:PKMCS0909E4000-R1" H 3565 6350 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx" H 3515 6650 50  0001 C CNN
+F 4 "PKMCS0909E4000-R1" H 3500 6400 40  0001 C CNN "Part Number"
+F 5 "Murata Electronics" H 3500 6400 40  0001 C CNN "Manufacturer"
+F 6 "AUDIO PIEZO TRANSDUCER 12.5V SMD" H 3600 6400 40  0001 C CNN "Description"
+F 7 "-40°C +85°C" H 3500 6400 40  0001 C CNN "Temp Range"
+	1    3550 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 3750 6850 0    79   ~ 0
+Pizeo\nBuzzer
+$Comp
+L power:GND #PWR018
+U 1 1 6069713F
+P 3300 7200
+F 0 "#PWR018" H 3300 6950 50  0001 C CNN
+F 1 "GND" H 3305 7027 50  0000 C CNN
+F 2 "" H 3300 7200 50  0001 C CNN
+F 3 "" H 3300 7200 50  0001 C CNN
+	1    3300 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6800 3300 7200
+Wire Wire Line
+	3350 6800 3300 6800
+Wire Wire Line
+	2600 6650 2600 6700
+$Comp
+L Device:R R?
+U 1 1 603FF1FC
+P 2900 6700
+AR Path="/60656A7D/603FF1FC" Ref="R?"  Part="1" 
+AR Path="/603FF1FC" Ref="R30"  Part="1" 
+F 0 "R30" V 3070 6683 50  0000 L CNN
+F 1 "487k" V 2986 6610 50  0000 L CNN
+F 2 "JetkovKiCADLib:R_0402_NoSilk" V 2830 6700 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2900 6700 50  0001 C CNN
+F 4 "RES 487K OHM 1% 1/16W 0402" H 2900 6700 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 2900 6700 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0402FT487K" H 2900 6700 50  0001 C CNN "Part Number"
+F 7 "-55°C +155°C" H 2900 6700 50  0001 C CNN "Temp Range"
+	1    2900 6700
+	0    -1   -1   0   
+$EndComp
+Text Label 3100 6700 0    40   ~ 0
+PDRIVE_O
+$Comp
+L Device:D_Schottky_ALT D6
+U 1 1 603EE231
+P 3100 6950
+F 0 "D6" V 3100 7075 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 3100 7076 50  0001 C CNN
+F 2 "JetkovKiCADLib:NSPU3051" H 3100 6950 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NSPU3051-D.PDF" H 3100 6950 50  0001 C CNN
+F 4 "TVS DIODE 5.5V 9.5V 2X2DFN" H 3100 6950 50  0001 C CNN "Description"
+F 5 "ON Semiconductor" H 3100 6950 50  0001 C CNN "Manufacturer"
+F 6 "NSPU3051N2T5G" H 3100 6950 50  0001 C CNN "Part Number"
+F 7 "-65°C +150°C" H 3100 6950 50  0001 C CNN "Temp Range"
+	1    3100 6950
+	0    -1   1    0   
+$EndComp
+Connection ~ 2600 6700
+Wire Wire Line
+	2600 6700 2600 6750
+Wire Wire Line
+	2600 6700 2750 6700
+Wire Wire Line
+	3350 6700 3100 6700
+Wire Wire Line
+	3100 6700 3100 6800
+Connection ~ 3100 6700
+Wire Wire Line
+	3100 6700 3050 6700
+$Comp
+L power:GND #PWR084
+U 1 1 60457D08
+P 3100 7200
+F 0 "#PWR084" H 3100 6950 50  0001 C CNN
+F 1 "GND" H 3105 7027 50  0000 C CNN
+F 2 "" H 3100 7200 50  0001 C CNN
+F 3 "" H 3100 7200 50  0001 C CNN
+	1    3100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 7200 3100 7100
+$Comp
+L Device:D_Schottky_ALT D5
+U 1 1 60463B42
+P 1200 5000
+F 0 "D5" V 1200 5125 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 1200 5126 50  0001 C CNN
+F 2 "JetkovKiCADLib:NSPU3051" H 1200 5000 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NSPU3051-D.PDF" H 1200 5000 50  0001 C CNN
+F 4 "TVS DIODE 5.5V 9.5V 2X2DFN" H 1200 5000 50  0001 C CNN "Description"
+F 5 "ON Semiconductor" H 1200 5000 50  0001 C CNN "Manufacturer"
+F 6 "NSPU3051N2T5G" H 1200 5000 50  0001 C CNN "Part Number"
+F 7 "-65°C +150°C" H 1200 5000 50  0001 C CNN "Temp Range"
+	1    1200 5000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1200 4850 1200 4800
+Connection ~ 1200 4800
+$Comp
+L power:GND #PWR083
+U 1 1 6046F176
+P 1200 5150
+F 0 "#PWR083" H 1200 4900 50  0001 C CNN
+F 1 "GND" H 1205 4977 50  0000 C CNN
+F 2 "" H 1200 5150 50  0001 C CNN
+F 3 "" H 1200 5150 50  0001 C CNN
+	1    1200 5150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
