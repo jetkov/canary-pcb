@@ -1,9 +1,0 @@
-### Module positions - created on 03/02/21 11:51:36 ###
-### Printed by Pcbnew version kicad (5.1.9)-1
-## Unit = mm, Angle = deg.
-## Side : bottom
-# Ref     Val                      Package                   PosX       PosY       Rot  Side
-J1        CONN_ARM_CM_JTAG_SWD_10  20021121-00010XXLFc     5.6500    34.2600    0.0000  bottom
-LOGO1     CANARY-LOGO              CANARY-LOGO            45.2000    30.1500  180.0000  bottom
-SW1       TL3301SPF160QJ           TL3301EF160QJ           4.9500    19.0000    0.0000  bottom
-## End

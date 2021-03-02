@@ -1,0 +1,28 @@
+Drill report for C:\Users\Alex\Documents\KiCAD\Canary\Canary.kicad_pcb
+Created on 2021-03-02 14:01:40
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  GND.Cu                    in1
+    L3 :  PWR.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'Canary-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (163 holes)
+    T2  0.40mm  0.016"  (2 holes)
+    T3  0.60mm  0.024"  (4 holes)  (with 4 slots)
+    T4  0.65mm  0.026"  (10 holes)
+
+    Total plated holes count 179
+
+
+Drill file 'Canary-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.20mm  0.087"  (2 holes)
+
+    Total unplated holes count 2

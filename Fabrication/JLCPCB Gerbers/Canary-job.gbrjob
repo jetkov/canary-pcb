@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-03-02T11:46:35-05:00"
+    "CreationDate":  "2021-03-02T14:07:55-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "Canary",
       "GUID": "43616e61-7279-42e6-9b69-6361645f7063",
-      "Revision": "rev?"
+      "Revision": "A.1"
     },
     "Size":
     {
