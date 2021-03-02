@@ -1238,16 +1238,16 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60409DCA
-P 6550 7050
-F 0 "H1" H 6650 7096 50  0000 L CNN
-F 1 "MountingHole" H 6650 7005 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6550 7050 50  0001 C CNN
-F 3 "~" H 6550 7050 50  0001 C CNN
-F 4 "~" H 6550 7050 50  0001 C CNN "Description"
-F 5 "~" H 6550 7050 50  0001 C CNN "Manufacturer"
-F 6 "~" H 6550 7050 50  0001 C CNN "Part Number"
-F 7 "~" H 6550 7050 50  0001 C CNN "Temp Range"
-	1    6550 7050
+P 6550 6800
+F 0 "H1" H 6650 6846 50  0000 L CNN
+F 1 "MountingHole" H 6650 6755 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6550 6800 50  0001 C CNN
+F 3 "~" H 6550 6800 50  0001 C CNN
+F 4 "~" H 6550 6800 50  0001 C CNN "Description"
+F 5 "~" H 6550 6800 50  0001 C CNN "Manufacturer"
+F 6 "~" H 6550 6800 50  0001 C CNN "Part Number"
+F 7 "~" H 6550 6800 50  0001 C CNN "Temp Range"
+	1    6550 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1526,6 +1526,32 @@ F 5 "U-Blox" H 3550 1850 50  0001 C CNN "Manufacturer"
 F 6 "RX TXRX MOD BLE 5.0 NORDIC SMD" H 3550 1850 50  0001 C CNN "Description"
 F 7 "-40°C +85°C" H 3650 1750 50  0001 C CNN "Temp Range"
 	1    3600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60576303
+P 6550 7050
+F 0 "H2" H 6650 7096 50  0000 L CNN
+F 1 "MountingHole" H 6650 7005 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6550 7050 50  0001 C CNN
+F 3 "~" H 6550 7050 50  0001 C CNN
+F 4 "~" H 6550 7050 50  0001 C CNN "Description"
+F 5 "~" H 6550 7050 50  0001 C CNN "Manufacturer"
+F 6 "~" H 6550 7050 50  0001 C CNN "Part Number"
+F 7 "~" H 6550 7050 50  0001 C CNN "Temp Range"
+	1    6550 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L JetkovKiCADLib:CANARY-LOGO LOGO1
+U 1 1 60599864
+P 6550 7300
+F 0 "LOGO1" H 6628 7300 40  0000 L CNN
+F 1 "CANARY-LOGO" H 6550 7200 40  0001 C CNN
+F 2 "JetkovKiCADLib:CANARY-LOGO" H 6550 7100 40  0001 C CNN
+F 3 "" H 6550 7300 40  0001 C CNN
+	1    6550 7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
