@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-03-02T05:03:43-05:00"
+    "CreationDate":  "2021-03-02T11:46:35-05:00"
   },
   "GeneralSpecs":
   {
@@ -48,52 +48,52 @@
   "FilesAttributes":
   [
     {
-      "Path":  "Canary-F_Cu.gbr",
+      "Path":  "Canary-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-GND_Cu.gbr",
+      "Path":  "Canary-GND_Cu.g2",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-PWR_Cu.gbr",
+      "Path":  "Canary-PWR_Cu.g3",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-B_Cu.gbr",
+      "Path":  "Canary-B_Cu.gbl",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-F_Paste.gbr",
+      "Path":  "Canary-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-F_SilkS.gbr",
+      "Path":  "Canary-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-B_SilkS.gbr",
+      "Path":  "Canary-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Canary-F_Mask.gbr",
+      "Path":  "Canary-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Canary-B_Mask.gbr",
+      "Path":  "Canary-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Canary-Edge_Cuts.gbr",
+      "Path":  "Canary-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
