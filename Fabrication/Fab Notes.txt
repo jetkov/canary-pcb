@@ -16,3 +16,6 @@ Surface Finish: Immersion Gold
 Smallest Package: 0402
 Min Track/Spacing: 6 mil
 Min Hole Size: 0.3 mm
+
+SECIAL NOTES:
+No stencil/paste needed for the back side, only turnkey front side
