@@ -1197,16 +1197,16 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60409DCA
-P 6550 6800
-F 0 "H1" H 6650 6846 50  0000 L CNN
-F 1 "MountingHole" H 6650 6755 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6550 6800 50  0001 C CNN
-F 3 "~" H 6550 6800 50  0001 C CNN
-F 4 "~" H 6550 6800 50  0001 C CNN "Description"
-F 5 "~" H 6550 6800 50  0001 C CNN "Manufacturer"
-F 6 "~" H 6550 6800 50  0001 C CNN "Part Number"
-F 7 "~" H 6550 6800 50  0001 C CNN "Temp Range"
-	1    6550 6800
+P 6300 6600
+F 0 "H1" H 6400 6600 50  0000 L CNN
+F 1 "MountingHole" H 6400 6555 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6300 6600 50  0001 C CNN
+F 3 "~" H 6300 6600 50  0001 C CNN
+F 4 "~" H 6300 6600 50  0001 C CNN "Description"
+F 5 "~" H 6300 6600 50  0001 C CNN "Manufacturer"
+F 6 "~" H 6300 6600 50  0001 C CNN "Part Number"
+F 7 "~" H 6300 6600 50  0001 C CNN "Temp Range"
+	1    6300 6600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1489,27 +1489,27 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60576303
-P 6550 7050
-F 0 "H2" H 6650 7096 50  0000 L CNN
-F 1 "MountingHole" H 6650 7005 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6550 7050 50  0001 C CNN
-F 3 "~" H 6550 7050 50  0001 C CNN
-F 4 "~" H 6550 7050 50  0001 C CNN "Description"
-F 5 "~" H 6550 7050 50  0001 C CNN "Manufacturer"
-F 6 "~" H 6550 7050 50  0001 C CNN "Part Number"
-F 7 "~" H 6550 7050 50  0001 C CNN "Temp Range"
-	1    6550 7050
+P 6650 6600
+F 0 "H2" H 6750 6600 50  0000 L CNN
+F 1 "MountingHole" H 6750 6555 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 6650 6600 50  0001 C CNN
+F 3 "~" H 6650 6600 50  0001 C CNN
+F 4 "~" H 6650 6600 50  0001 C CNN "Description"
+F 5 "~" H 6650 6600 50  0001 C CNN "Manufacturer"
+F 6 "~" H 6650 6600 50  0001 C CNN "Part Number"
+F 7 "~" H 6650 6600 50  0001 C CNN "Temp Range"
+	1    6650 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L JetkovKiCADLib:CANARY-LOGO LOGO1
 U 1 1 60599864
-P 6550 7300
-F 0 "LOGO1" H 6628 7300 40  0000 L CNN
-F 1 "CANARY-LOGO" H 6550 7200 40  0001 C CNN
-F 2 "JetkovKiCADLib:CANARY-LOGO" H 6550 7100 40  0001 C CNN
-F 3 "" H 6550 7300 40  0001 C CNN
-	1    6550 7300
+P 6500 6800
+F 0 "LOGO1" H 6578 6800 40  0000 L CNN
+F 1 "CANARY-LOGO" H 6500 6700 40  0001 C CNN
+F 2 "JetkovKiCADLib:CANARY-LOGO" H 6500 6600 40  0001 C CNN
+F 3 "" H 6500 6800 40  0001 C CNN
+	1    6500 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1645,6 +1645,72 @@ F 1 "GND" H 1205 4977 50  0000 C CNN
 F 2 "" H 1200 5150 50  0001 C CNN
 F 3 "" H 1200 5150 50  0001 C CNN
 	1    1200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60420BD8
+P 6300 7000
+F 0 "FID1" H 6385 7000 50  0000 L CNN
+F 1 "Fiducial" H 6385 6955 50  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 6300 7000 50  0001 C CNN
+F 3 "~" H 6300 7000 50  0001 C CNN
+	1    6300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60421C0D
+P 6300 7150
+F 0 "FID2" H 6385 7150 50  0000 L CNN
+F 1 "Fiducial" H 6385 7105 50  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 6300 7150 50  0001 C CNN
+F 3 "~" H 6300 7150 50  0001 C CNN
+	1    6300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 604274F6
+P 6300 7300
+F 0 "FID3" H 6385 7300 50  0000 L CNN
+F 1 "Fiducial" H 6385 7255 50  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 6300 7300 50  0001 C CNN
+F 3 "~" H 6300 7300 50  0001 C CNN
+	1    6300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 6042CD9B
+P 6650 7000
+F 0 "FID4" H 6735 7000 50  0000 L CNN
+F 1 "Fiducial" H 6735 6955 50  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 6650 7000 50  0001 C CNN
+F 3 "~" H 6650 7000 50  0001 C CNN
+	1    6650 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 604325C6
+P 6650 7150
+F 0 "FID5" H 6735 7150 50  0000 L CNN
+F 1 "Fiducial" H 6735 7105 50  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 6650 7150 50  0001 C CNN
+F 3 "~" H 6650 7150 50  0001 C CNN
+	1    6650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 60437D6F
+P 6650 7300
+F 0 "FID6" H 6735 7300 50  0000 L CNN
+F 1 "Fiducial" H 6735 7255 50  0001 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2mm_Outer" H 6650 7300 50  0001 C CNN
+F 3 "~" H 6650 7300 50  0001 C CNN
+	1    6650 7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
