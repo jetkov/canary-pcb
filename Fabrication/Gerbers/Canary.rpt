@@ -1,0 +1,2886 @@
+## Footprint report - date 03/02/21 05:07:19
+## Created by Pcbnew version kicad (5.1.9)-1
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 38.391250 44.022481
+lower_right_corner 99.796429 88.392500
+$EndBOARD
+
+$MODULE "LOGO1"
+reference "LOGO1"
+value "CANARY-LOGO"
+footprint "JetkovKiCADLib:CANARY-LOGO"
+attribut none
+position 86.200000 55.850000  orientation 180.00
+layer back
+$PAD "1"
+Shape CustomShape Layer back
+position  0.190000  0.250000  size  1.524000  1.524000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LOGO1
+
+$MODULE "FID6"
+reference "FID6"
+value "Fiducial"
+footprint "Fiducials:Fiducial_1mm_Dia_2mm_Outer"
+attribut virtual
+position 53.400000 49.720000  orientation 0.00
+layer back
+$PAD "~"
+Shape Circle Layer back
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID6
+
+$MODULE "FID5"
+reference "FID5"
+value "Fiducial"
+footprint "Fiducials:Fiducial_1mm_Dia_2mm_Outer"
+attribut virtual
+position 51.860000 84.320000  orientation 0.00
+layer back
+$PAD "~"
+Shape Circle Layer back
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID5
+
+$MODULE "FID4"
+reference "FID4"
+value "Fiducial"
+footprint "Fiducials:Fiducial_1mm_Dia_2mm_Outer"
+attribut virtual
+position 95.000000 78.910000  orientation 0.00
+layer back
+$PAD "~"
+Shape Circle Layer back
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID4
+
+$MODULE "FID3"
+reference "FID3"
+value "Fiducial"
+footprint "Fiducials:Fiducial_1mm_Dia_2mm_Outer"
+attribut virtual
+position 44.470000 49.450000  orientation 0.00
+layer front
+$PAD "~"
+Shape Circle Layer front
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID3
+
+$MODULE "FID2"
+reference "FID2"
+value "Fiducial"
+footprint "Fiducials:Fiducial_1mm_Dia_2mm_Outer"
+attribut virtual
+position 90.400000 84.300000  orientation 0.00
+layer front
+$PAD "~"
+Shape Circle Layer front
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID2
+
+$MODULE "FID1"
+reference "FID1"
+value "Fiducial"
+footprint "Fiducials:Fiducial_1mm_Dia_2mm_Outer"
+attribut virtual
+position 80.900000 49.450000  orientation 0.00
+layer front
+$PAD "~"
+Shape Circle Layer front
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  FID1
+
+$MODULE "U12"
+reference "U12"
+value "MIC2288YD5"
+footprint "JetkovKiCADLib:MIC2288YD5"
+attribut smd
+position 61.400000 54.400000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.185000 -0.950000  size  1.240000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.185000  0.000000  size  1.240000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.185000  0.950000  size  1.240000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.185000  0.950000  size  1.240000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.185000 -0.950000  size  1.240000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U12
+
+$MODULE "U9"
+reference "U9"
+value "RT6150AGQW"
+footprint "JetkovKiCADLib:RT6150AGQW"
+attribut smd
+position 75.550000 53.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.445000 -1.000000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.445000 -0.500000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.445000  0.000000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position -1.445000  0.500000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position -1.445000  1.000000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  1.445000  1.000000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer front
+position  1.445000  0.500000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer front
+position  1.445000  0.000000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer front
+position  1.445000 -0.500000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Rect Layer front
+position  1.445000 -1.000000  size  0.810000  0.260000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Rect Layer front
+position  0.000000  0.000000  size  1.630000  2.480000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U9
+
+$MODULE "TP1"
+reference "TP1"
+value "TestPoint"
+footprint "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"
+attribut virtual
+position 49.940000 80.760000  orientation 0.00
+layer back
+$PAD "1"
+Shape Circle Layer back
+position  0.000000  0.000000  size  1.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  TP1
+
+$MODULE "R30"
+reference "R30"
+value "487k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 51.850000 58.900000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R30
+
+$MODULE "D7"
+reference "D7"
+value "D_Schottky_ALT"
+footprint "JetkovKiCADLib:NSPU3051"
+attribut smd
+position 44.150000 61.250000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.365000  0.000000  size  0.470000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.365000  0.000000  size  0.470000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D7
+
+$MODULE "D6"
+reference "D6"
+value "D_Schottky_ALT"
+footprint "JetkovKiCADLib:NSPU3051"
+attribut smd
+position 53.580000 58.900000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.365000  0.000000  size  0.470000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.365000  0.000000  size  0.470000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D6
+
+$MODULE "D5"
+reference "D5"
+value "D_Schottky_ALT"
+footprint "JetkovKiCADLib:NSPU3051"
+attribut smd
+position 47.650000 61.380000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.365000  0.000000  size  0.470000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.365000  0.000000  size  0.470000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D5
+
+$MODULE "H2"
+reference "H2"
+value "MountingHole"
+footprint "Mounting_Holes:MountingHole_2.2mm_M2"
+attribut virtual
+position 94.500000 83.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  2.200000  2.200000  orientation 0.00
+drill  2.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H2
+
+$MODULE "Y1"
+reference "Y1"
+value "32.7680 kHz"
+footprint "JetkovKiCADLib:ECS-327-9-12-C-TR"
+attribut smd
+position 60.750000 81.500000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.700000  0.000000  size  0.600000  1.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.700000  0.000000  size  0.600000  1.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Y1
+
+$MODULE "S1"
+reference "S1"
+value "DNP"
+footprint "JetkovKiCADLib:SM-UART-04L"
+attribut virtual
+position 50.260000 48.480000  orientation 0.00
+layer front
+$EndMODULE  S1
+
+$MODULE "SW1"
+reference "SW1"
+value "TL3301SPF160QJ"
+footprint "JetkovKiCADLib:TL3301EF160QJ"
+attribut none
+position 45.950000 67.000000  orientation 0.00
+layer back
+$PAD "4"
+Shape Rect Layer back
+position  2.400000 -2.250000  size  2.800000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position -2.400000 -2.250000  size  2.800000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  2.400000  2.250000  size  2.800000  1.500000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -2.400000  2.250000  size  2.800000  1.500000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  SW1
+
+$MODULE "U4"
+reference "U4"
+value "SGP40"
+footprint "JetkovKiCADLib:SGP40-D-R4"
+attribut smd
+position 81.900000 80.950000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.150000 -0.800000  size  0.400000  0.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.150000  0.000000  size  0.400000  0.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.150000  0.800000  size  0.400000  0.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.150000  0.800000  size  0.400000  0.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.150000  0.000000  size  0.400000  0.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  1.150000 -0.800000  size  0.400000  0.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape CustomShape Layer front
+position  0.000000  0.000000  size  1.000000  1.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U4
+
+$MODULE "U7"
+reference "U7"
+value "DNP"
+footprint "JetkovKiCADLib:SPEC-110-902"
+attribut none
+position 84.850000 68.550000  orientation 0.00
+layer front
+$PAD "10"
+Shape Rect Layer front
+position 10.000000  8.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer front
+position 10.000000  4.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer front
+position 10.000000  0.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer front
+position 10.000000 -4.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position 10.000000 -8.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position -10.000000 -8.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position -10.000000 -4.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -10.000000  0.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -10.000000  4.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -10.000000  8.000000  size  2.500000  1.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U7
+
+$MODULE "J4"
+reference "J4"
+value "S2B-PH-SM4-TB"
+footprint "JetkovKiCADLib:JST_S2B-PH-SM4-TB"
+attribut smd
+position 94.750000 52.550000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  1.000000  0.000000  size  1.000000  3.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.000000  0.000000  size  1.000000  3.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S1"
+Shape Rect Layer front
+position  3.350000  5.750000  size  1.500000  3.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S1"
+Shape Rect Layer front
+position -3.350000  5.750000  size  1.500000  3.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J4
+
+$MODULE "U3"
+reference "U3"
+value "SHTC3"
+footprint "JetkovKiCADLib:SHTC3"
+attribut smd
+position 88.050000 80.850000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.500000  0.525000  size  0.350000  0.550000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.500000  0.525000  size  0.350000  0.550000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  0.500000 -1.325000  size  0.350000  0.550000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position -0.500000 -1.325000  size  0.350000  0.550000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  0.000000 -0.400000  size  0.700000  1.600000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U3
+
+$MODULE "U11"
+reference "U11"
+value "MCP73831T-2ATI_OT"
+footprint "JetkovKiCADLib:MCP7383xx-xxxx_OT"
+attribut smd
+position 68.725000 53.500000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.245000 -0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.245000  0.000000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.245000  0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.245000  0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.245000 -0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U11
+
+$MODULE "J2"
+reference "J2"
+value "20021311-00010T4LF"
+footprint "JetkovKiCADLib:20021311-00010T4LF"
+attribut none
+position 56.900000 53.940000  orientation 90.00
+layer back
+$PAD "2"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000 -1.270000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position -1.270000  0.000000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position -1.270000 -1.270000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Circle Layer both
+position -2.540000  0.000000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position -2.540000 -1.270000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Circle Layer both
+position -3.810000  0.000000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Circle Layer both
+position -3.810000 -1.270000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Circle Layer both
+position -5.080000  0.000000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Circle Layer both
+position -5.080000 -1.270000  size  1.050000  1.050000  orientation 0.00
+drill  0.650000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "R5"
+reference "R5"
+value "180k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 49.525000 62.300000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R5
+
+$MODULE "R3"
+reference "R3"
+value "180k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 49.025000 60.950000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "C2"
+reference "C2"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 49.975000 60.750000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C2
+
+$MODULE "C1"
+reference "C1"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 61.150000 73.600000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C1
+
+$MODULE "C3"
+reference "C3"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 58.200000 81.450000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C3
+
+$MODULE "C4"
+reference "C4"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 59.100000 81.450000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C4
+
+$MODULE "C5"
+reference "C5"
+value "DNP"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 56.250000 71.100000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C5
+
+$MODULE "C6"
+reference "C6"
+value "12pF"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 60.850000 79.750000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C6
+
+$MODULE "C7"
+reference "C7"
+value "12pF"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 60.850000 83.250000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C7
+
+$MODULE "C8"
+reference "C8"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 87.650000 82.750000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C8
+
+$MODULE "C9"
+reference "C9"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 84.250000 81.550000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C9
+
+$MODULE "C10"
+reference "C10"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 79.550000 80.450000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C10
+
+$MODULE "C11"
+reference "C11"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 67.900000 66.175000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C11
+
+$MODULE "C12"
+reference "C12"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 71.650000 68.075000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C12
+
+$MODULE "C13"
+reference "C13"
+value "DNP"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 67.850000 68.075000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C13
+
+$MODULE "C14"
+reference "C14"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 64.345000 74.150000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C14
+
+$MODULE "C15"
+reference "C15"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 64.345000 73.250000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C15
+
+$MODULE "C16"
+reference "C16"
+value "DNP"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 72.275000 74.000000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C16
+
+$MODULE "C17"
+reference "C17"
+value "0.1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 65.200000 78.550000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C17
+
+$MODULE "C18"
+reference "C18"
+value "10u"
+footprint "JetkovKiCADLib:C_0603"
+attribut smd
+position 74.850000 56.000000  orientation 0.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C18
+
+$MODULE "C19"
+reference "C19"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 63.850000 59.950000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C19
+
+$MODULE "C20"
+reference "C20"
+value "10u"
+footprint "JetkovKiCADLib:C_0603"
+attribut smd
+position 74.850000 51.000000  orientation 0.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C20
+
+$MODULE "C21"
+reference "C21"
+value "4.7u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 69.725000 50.900000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C21
+
+$MODULE "C22"
+reference "C22"
+value "22u"
+footprint "JetkovKiCADLib:C_0603"
+attribut smd
+position 62.400000 57.200000  orientation 180.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C22
+
+$MODULE "C23"
+reference "C23"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 63.800000 65.200000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C23
+
+$MODULE "C24"
+reference "C24"
+value "4.7u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 69.725000 56.700000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C24
+
+$MODULE "C25"
+reference "C25"
+value "22u"
+footprint "JetkovKiCADLib:C_0603"
+attribut smd
+position 57.850000 51.400000  orientation 180.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -0.750000  0.000000  size  0.800000  0.750000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C25
+
+$MODULE "C26"
+reference "C26"
+value "1u"
+footprint "JetkovKiCADLib:C_0402_NoSilk"
+attribut smd
+position 59.050000 50.250000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.550000  0.000000  size  0.600000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C26
+
+$MODULE "D4"
+reference "D4"
+value "D_Schottky"
+footprint "JetkovKiCADLib:PMEG2010EA"
+attribut none
+position 61.350000 51.300000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.022350  0.000000  size  1.358900  0.457200  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.022350  0.000000  size  1.358900  0.457200  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D4
+
+$MODULE "J1"
+reference "J1"
+value "CONN_ARM_CM_JTAG_SWD_10"
+footprint "JetkovKiCADLib:20021121-00010XXLFc"
+attribut none
+position 46.650000 51.740000  orientation 0.00
+layer back
+$PAD "8"
+Shape Rect Layer back
+position  1.950000 -1.270000  size  2.400000  0.760000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Rect Layer back
+position  1.950000 -2.540000  size  2.400000  0.760000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer back
+position  1.950000  1.270000  size  2.400000  0.760000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer back
+position  1.950000  0.000000  size  2.400000  0.760000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  1.950000  2.540000  size  2.400000  0.760000  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer back
+position -1.950000 -2.540000  size  2.400000  0.760000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer back
+position -1.950000 -1.270000  size  2.400000  0.760000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer back
+position -1.950000  0.000000  size  2.400000  0.760000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position -1.950000  1.270000  size  2.400000  0.760000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -1.950000  2.540000  size  2.400000  0.760000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "U1"
+reference "U1"
+value "BMD-300-A-R"
+footprint "JetkovKiCADLib:BMD-300-A-R"
+attribut smd
+position 50.450000 80.550000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -2.350000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.800000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.250000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position -0.700000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position -0.150000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  0.400000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer front
+position  0.950000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer front
+position  1.500000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer front
+position  2.050000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Rect Layer front
+position  2.600000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Rect Layer front
+position  3.150000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Rect Layer front
+position  3.700000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Rect Layer front
+position  4.250000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Rect Layer front
+position  4.800000  3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Rect Layer front
+position  5.350000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "16"
+Shape Rect Layer front
+position  6.450000  4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "17"
+Shape Rect Layer front
+position  6.450000  3.300000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "18"
+Shape Rect Layer front
+position  5.550000  2.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "19"
+Shape Rect Layer front
+position  6.450000  2.200000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "20"
+Shape Rect Layer front
+position  5.550000  1.650000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "21"
+Shape Rect Layer front
+position  6.450000  1.100000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "22"
+Shape Rect Layer front
+position  5.550000  0.550000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "23"
+Shape Rect Layer front
+position  6.450000  0.000000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "24"
+Shape Rect Layer front
+position  5.550000 -0.550000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "25"
+Shape Rect Layer front
+position  6.450000 -1.100000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "26"
+Shape Rect Layer front
+position  5.550000 -1.650000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "27"
+Shape Rect Layer front
+position  6.450000 -2.200000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "28"
+Shape Rect Layer front
+position  5.550000 -2.750000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "29"
+Shape Rect Layer front
+position  6.450000 -3.300000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "30"
+Shape Rect Layer front
+position  6.450000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "31"
+Shape Rect Layer front
+position  5.350000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "32"
+Shape Rect Layer front
+position  4.800000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "33"
+Shape Rect Layer front
+position  4.250000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "34"
+Shape Rect Layer front
+position  3.700000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "35"
+Shape Rect Layer front
+position  3.150000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "36"
+Shape Rect Layer front
+position  2.600000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "37"
+Shape Rect Layer front
+position  2.050000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "38"
+Shape Rect Layer front
+position  1.500000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "39"
+Shape Rect Layer front
+position  0.950000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "40"
+Shape Rect Layer front
+position  0.400000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "41"
+Shape Rect Layer front
+position -0.150000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "42"
+Shape Rect Layer front
+position -0.700000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "43"
+Shape Rect Layer front
+position -1.250000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "44"
+Shape Rect Layer front
+position -1.800000 -3.500000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "45"
+Shape Rect Layer front
+position -2.350000 -4.400000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "46"
+Shape Rect Layer front
+position -2.350000 -1.650000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "47"
+Shape Rect Layer front
+position -2.350000  1.650000  size  0.500000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U1
+
+$MODULE "J3"
+reference "J3"
+value "USB4125-GF-A"
+footprint "JetkovKiCADLib:USB4125-GF-A"
+attribut none
+position 46.550000 67.000000  orientation 270.00
+layer front
+$PAD "B12"
+Shape Rect Layer front
+position -2.750000 -0.080000  size  0.800000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "A12"
+Shape Rect Layer front
+position  2.750000 -0.080000  size  0.800000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "B9"
+Shape Rect Layer front
+position -1.520000 -0.080000  size  0.760000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "A9"
+Shape Rect Layer front
+position  1.520000 -0.080000  size  0.760000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "A5"
+Shape Rect Layer front
+position -0.500000 -0.080000  size  0.700000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "B5"
+Shape Rect Layer front
+position  0.500000 -0.080000  size  0.700000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S1"
+Shape Oval Layer both
+position -4.320000  0.000000  size  1.100000  2.200000  orientation 0.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S2"
+Shape Oval Layer both
+position  4.320000  0.000000  size  1.100000  2.200000  orientation 0.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S3"
+Shape Oval Layer both
+position -4.320000  3.800000  size  1.100000  2.200000  orientation 0.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S4"
+Shape Oval Layer both
+position  4.320000  3.800000  size  1.100000  2.200000  orientation 0.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J3
+
+$MODULE "L1"
+reference "L1"
+value "2.2u"
+footprint "JetkovKiCADLib:MAMK2520T2R2M"
+attribut none
+position 72.000000 53.500000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.110000  0.000000  size  1.200000  2.220000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.110000  0.000000  size  1.200000  2.220000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  L1
+
+$MODULE "L2"
+reference "L2"
+value "4.7u"
+footprint "JetkovKiCADLib:LQH3NPZ4R7MMEL"
+attribut none
+position 64.950000 54.400000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.100000  0.000000  size  0.800000  2.700000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.100000  0.000000  size  0.800000  2.700000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  L2
+
+$MODULE "LS1"
+reference "LS1"
+value "PKMCS0909E4000-R1"
+footprint "JetkovKiCADLib:PKMCS0909E4000-R1"
+attribut none
+position 56.020000 64.720000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -4.350000  0.000000  size  1.300000  3.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  4.350000  0.000000  size  1.300000  3.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LS1
+
+$MODULE "Q1"
+reference "Q1"
+value "PMN30UNX"
+footprint "JetkovKiCADLib:PMN-NXP-TSOP6-SOT457"
+attribut none
+position 47.445000 53.075000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.245000 -0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.245000  0.000000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.245000  0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.245000  0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.245000  0.000000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  1.245000 -0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q1
+
+$MODULE "Q2"
+reference "Q2"
+value "PMN42XPEAH"
+footprint "JetkovKiCADLib:PMN-NXP-TSOP6-SOT457"
+attribut none
+position 51.750000 53.075000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.245000 -0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.245000  0.000000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.245000  0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.245000  0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.245000  0.000000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  1.245000 -0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q2
+
+$MODULE "Q3"
+reference "Q3"
+value "PMN30UNX"
+footprint "JetkovKiCADLib:PMN-NXP-TSOP6-SOT457"
+attribut none
+position 51.750000 56.675000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.245000 -0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.245000  0.000000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.245000  0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.245000  0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.245000  0.000000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  1.245000 -0.950000  size  1.220000  0.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q3
+
+$MODULE "R1"
+reference "R1"
+value "2M"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 60.215000 71.875000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "2.4M"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 60.210000 73.570000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R4"
+reference "R4"
+value "10k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 71.950000 80.850000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R4
+
+$MODULE "R6"
+reference "R6"
+value "180k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 49.425000 50.825000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R6
+
+$MODULE "R7"
+reference "R7"
+value "10k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 72.920000 80.850000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R7
+
+$MODULE "R8"
+reference "R8"
+value "470R"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 52.550000 50.825000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R8
+
+$MODULE "R9"
+reference "R9"
+value "470R"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 49.075000 55.800000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R9
+
+$MODULE "R10"
+reference "R10"
+value "470R"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 64.150000 84.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R10
+
+$MODULE "R11"
+reference "R11"
+value "470R"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 74.150000 84.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R11
+
+$MODULE "R12"
+reference "R12"
+value "499R"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 84.150000 84.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R12
+
+$MODULE "R13"
+reference "R13"
+value "2M"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 69.650000 62.800000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R13
+
+$MODULE "R14"
+reference "R14"
+value "DNP"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 69.750000 68.125000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R14
+
+$MODULE "R15"
+reference "R15"
+value "499k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 71.275000 74.000000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R15
+
+$MODULE "R16"
+reference "R16"
+value "49R9"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 71.550000 71.050000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R16
+
+$MODULE "R17"
+reference "R17"
+value "DNP"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 68.050000 75.750000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R17
+
+$MODULE "R18"
+reference "R18"
+value "2M"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 78.200000 54.850000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R18
+
+$MODULE "R19"
+reference "R19"
+value "5.1k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 48.900000 67.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R19
+
+$MODULE "R20"
+reference "R20"
+value "5.1k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 48.900000 66.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R20
+
+$MODULE "R21"
+reference "R21"
+value "487k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 78.200000 50.800000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R21
+
+$MODULE "R22"
+reference "R22"
+value "86.6k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 78.200000 52.500000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R22
+
+$MODULE "R23"
+reference "R23"
+value "300k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 68.775000 56.500000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R23
+
+$MODULE "R24"
+reference "R24"
+value "180k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 67.775000 56.500000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R24
+
+$MODULE "R25"
+reference "R25"
+value "0R"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 65.650000 62.550000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R25
+
+$MODULE "R26"
+reference "R26"
+value "2M"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 60.450000 57.350000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R26
+
+$MODULE "R27"
+reference "R27"
+value "10k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 67.825000 50.850000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R27
+
+$MODULE "R28"
+reference "R28"
+value "9.1k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 59.150000 52.950000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R28
+
+$MODULE "R29"
+reference "R29"
+value "3k"
+footprint "JetkovKiCADLib:R_0402_NoSilk"
+attribut smd
+position 59.150000 54.650000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.450000  0.000000  size  0.400000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R29
+
+$MODULE "U2"
+reference "U2"
+value "DNP"
+footprint "JetkovKiCADLib:MX25V1006FM1I"
+attribut none
+position 51.950000 72.400000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -2.730500 -1.905000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -2.730500 -0.635000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -2.730500  0.635000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position -2.730500  1.905000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  2.730500  1.905000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  2.730500  0.635000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer front
+position  2.730500 -0.635000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer front
+position  2.730500 -1.905000  size  1.447800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U2
+
+$MODULE "U5"
+reference "U5"
+value "MAX6071BAUT21T"
+footprint "JetkovKiCADLib:MAX6071BAUT21"
+attribut none
+position 70.150000 65.475000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.245000 -0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.245000  0.000000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.245000  0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.245000  0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.245000  0.000000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position  1.245000 -0.950000  size  1.220000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U5
+
+$MODULE "U6"
+reference "U6"
+value "LMP91000"
+footprint "JetkovKiCADLib:LMP91000"
+attribut smd
+position 68.075000 72.700000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.935000 -1.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.935000 -1.000000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.935000 -0.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position -1.935000  0.000000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position -1.935000  0.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position -1.935000  1.000000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer front
+position -1.935000  1.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer front
+position  1.935000  1.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer front
+position  1.935000  1.000000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Rect Layer front
+position  1.935000  0.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Rect Layer front
+position  1.935000  0.000000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Rect Layer front
+position  1.935000 -0.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Rect Layer front
+position  1.935000 -1.000000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Rect Layer front
+position  1.935000 -1.500000  size  0.860000  0.270000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Rect Layer front
+position  0.000000  0.000000  size  2.600000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U6
+
+$MODULE "U8"
+reference "U8"
+value "MCP6041T-I_OT"
+footprint "JetkovKiCADLib:MCP6041T-I_OT"
+attribut none
+position 68.050000 78.150000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.371600 -0.939800  size  1.320800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.371600  0.000000  size  1.320800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.371600  0.939800  size  1.320800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.371600  0.939800  size  1.320800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.371600 -0.939800  size  1.320800  0.558800  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U8
+
+$MODULE "U10"
+reference "U10"
+value "LP5907MFX-3.2"
+footprint "JetkovKiCADLib:LP5907MFX"
+attribut none
+position 63.400000 62.550000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -1.255000 -0.950000  size  1.210000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -1.255000  0.000000  size  1.210000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position -1.255000  0.950000  size  1.210000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  1.255000  0.950000  size  1.210000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  1.255000 -0.950000  size  1.210000  0.590000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U10
+
+$MODULE "H1"
+reference "H1"
+value "MountingHole"
+footprint "Mounting_Holes:MountingHole_2.2mm_M2"
+attribut virtual
+position 46.500000 58.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  2.200000  2.200000  orientation 0.00
+drill  2.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H1
+
+$MODULE "D1"
+reference "D1"
+value "GREEN"
+footprint "JetkovKiCADLib:155124xx73200"
+attribut none
+position 61.000000 84.500000  orientation 180.00
+layer front
+$PAD "3"
+Shape Rect Layer front
+position  0.000000  0.150000  size  0.800000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.500000  0.000000  size  1.000000  0.900000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.500000  0.000000  size  1.000000  0.900000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D1
+
+$MODULE "D2"
+reference "D2"
+value "YELLOW"
+footprint "JetkovKiCADLib:155124xx73200"
+attribut none
+position 71.000000 84.500000  orientation 180.00
+layer front
+$PAD "3"
+Shape Rect Layer front
+position  0.000000  0.150000  size  0.800000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.500000  0.000000  size  1.000000  0.900000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.500000  0.000000  size  1.000000  0.900000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D2
+
+$MODULE "D3"
+reference "D3"
+value "RED"
+footprint "JetkovKiCADLib:155124xx73200"
+attribut none
+position 81.000000 84.500000  orientation 180.00
+layer front
+$PAD "3"
+Shape Rect Layer front
+position  0.000000  0.150000  size  0.800000  0.600000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.500000  0.000000  size  1.000000  0.900000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.500000  0.000000  size  1.000000  0.900000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D3
+
+$EndDESCRIPTION
