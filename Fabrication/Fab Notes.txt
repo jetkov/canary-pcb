@@ -16,3 +16,9 @@ Surface Finish: Immersion Gold
 Smallest Package: 0402
 Min Track/Spacing: 6 mil
 Min Hole Size: 0.3 mm
+
+Stack-up:
+1. F.Cu
+2. GND.Cu
+3. PWR.Cu
+4. B.Cu
